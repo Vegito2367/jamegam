@@ -1,5 +1,6 @@
 using UnityEngine;
 using UnityEngine.Rendering;
+using UnityEngine.Rendering.Universal;
 using UnityEngine.UI;
 
 public class Player_Script : MonoBehaviour
@@ -23,22 +24,23 @@ public class Player_Script : MonoBehaviour
     public float specialAttackBar = 100f;
     public GameObject hollowCutSceneScreen;
     public Slider specialAttackSlider;
-    
+
     public Animator CutSceneAnimator;
 
     public bool isLaunchingSpecialMove = false;
+    public Light2D light2D;
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
-           animator = GetComponent<Animator>();
-           attackHitbox = transform.Find("AttackObject").GetComponent<BoxCollider2D>();
-           rb = GetComponent<Rigidbody2D>();
-           spriteRenderer = GetComponent<SpriteRenderer>();
-           upAttackPoint = transform.Find("upstart");
-           downAttackPoint = transform.Find("downstart");
-           leftAttackPoint = transform.Find("leftstart");
-           rightAttackPoint = transform.Find("rightstart");
-           specialAttackSlider.value = specialAttackBar;
+        animator = GetComponent<Animator>();
+        attackHitbox = transform.Find("AttackObject").GetComponent<BoxCollider2D>();
+        rb = GetComponent<Rigidbody2D>();
+        spriteRenderer = GetComponent<SpriteRenderer>();
+        upAttackPoint = transform.Find("upstart");
+        downAttackPoint = transform.Find("downstart");
+        leftAttackPoint = transform.Find("leftstart");
+        rightAttackPoint = transform.Find("rightstart");
+        specialAttackSlider.value = specialAttackBar;
 
     }
 
@@ -56,45 +58,49 @@ public class Player_Script : MonoBehaviour
 
     public void HandleSpecialAttack()
     {
-        bool didSpecialAttack = false;
+
         if (Input.GetKeyDown(KeyCode.W))
         {
             HollowProjectile.position = upAttackPoint.position;
             HollowProjectile.linearVelocity = Vector2.up * projectileSpeed;
-                didSpecialAttack = true;
+            isLaunchingSpecialMove = false;
+            HollowProjectile.GetComponent<purpleprojectile>().released = true;
         }
         if (Input.GetKeyDown(KeyCode.S))
         {
             HollowProjectile.position = downAttackPoint.position;
             HollowProjectile.linearVelocity = Vector2.down * projectileSpeed;
-                didSpecialAttack = true;
+            isLaunchingSpecialMove = false;
+            HollowProjectile.GetComponent<purpleprojectile>().released = true;
         }
         if (Input.GetKeyDown(KeyCode.A))
         {
             HollowProjectile.position = leftAttackPoint.position;
             HollowProjectile.linearVelocity = Vector2.left * projectileSpeed;
-                didSpecialAttack = true;
+            isLaunchingSpecialMove = false;
+            HollowProjectile.GetComponent<purpleprojectile>().released = true;
         }
         if (Input.GetKeyDown(KeyCode.D))
         {
             // Logic for the special attack
             HollowProjectile.position = rightAttackPoint.position;
             HollowProjectile.linearVelocity = Vector2.right * projectileSpeed;
-                didSpecialAttack = true;
-        }
-        if (didSpecialAttack)
-        {
             isLaunchingSpecialMove = false;
+            HollowProjectile.GetComponent<purpleprojectile>().released = true;
         }
-        
+
+
     }
 
+    public void doFadeOut()
+    {
+
+        CutSceneAnimator.SetTrigger("FadeOut");
+    }
     public void launchPlayerSpecial()
     {
-        CutSceneAnimator.SetTrigger("FadeOut");
-        hollowCutSceneScreen.SetActive(false);
+
         isLaunchingSpecialMove = true;
-        
         spriteRenderer.enabled = true;
         HollowProjectile.gameObject.SetActive(true);
         specialAttackSlider.enabled = true;
@@ -102,7 +108,7 @@ public class Player_Script : MonoBehaviour
 
     public void HandleAttack()
     {
-        if(isLaunchingSpecialMove)
+        if (isLaunchingSpecialMove)
         {
             return;
         }
@@ -112,23 +118,29 @@ public class Player_Script : MonoBehaviour
         }
         if (Input.GetKeyDown(KeyCode.Mouse1) && specialAttackBar >= 30f)
         {
-            
+
             CutSceneAnimator.SetTrigger("FadeIn");
             spriteRenderer.enabled = false;
             specialAttackBar -= 30f;
             specialAttackSlider.value = specialAttackBar;
             specialAttackSlider.enabled = false;
         }
-        
+
     }
     public void currentCutSceneStart()
     {
+        light2D.intensity = 1f;
         hollowCutSceneScreen.SetActive(true);
     }
 
     public void currentCutSceneEnd()
     {
+        doFadeOut();
         hollowCutSceneScreen.SetActive(false);
+        Debug.Log("Cutscene ended, launching special move");
+        light2D.intensity = 0f;
+        launchPlayerSpecial();
+
     }
     public void setAttackTrue()
     {
@@ -143,17 +155,17 @@ public class Player_Script : MonoBehaviour
 
     public void HandleMovement()
     {
-        if(isAttacking || isLaunchingSpecialMove)
+        if (isAttacking || isLaunchingSpecialMove)
         {
             rb.linearVelocity = Vector2.zero;
             return;
         }
-        float moveX = Input.GetAxisRaw("Horizontal"); 
+        float moveX = Input.GetAxisRaw("Horizontal");
         float moveY = Input.GetAxisRaw("Vertical");
 
         if (moveX != 0 || moveY != 0)
         {
-            animator.SetBool("isMoving",true);
+            animator.SetBool("isMoving", true);
         }
         else
         {
@@ -162,4 +174,4 @@ public class Player_Script : MonoBehaviour
 
         rb.linearVelocity = new Vector2(moveX, moveY).normalized * speed;
     }
-}   
+}

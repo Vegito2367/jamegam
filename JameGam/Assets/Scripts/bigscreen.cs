@@ -17,6 +17,6 @@ public class bigscreen : MonoBehaviour
 
     public void afterFadeOut()
     {
-        playerScript.currentCutSceneEnd();
+        Debug.Log("Fade out completed, ending cutscene");
     }
 }

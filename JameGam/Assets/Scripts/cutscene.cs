@@ -7,7 +7,7 @@ public class cutscene : MonoBehaviour
 
     public void launchSpecialmove()
     {
-        playerScript.launchPlayerSpecial();
+        playerScript.currentCutSceneEnd();
     }
 
     // Update is called once per frame
