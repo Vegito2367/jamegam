@@ -1,0 +1,710 @@
+fileFormatVersion: 2
+guid: 35c4dfa5f7f51411da0e453def463252
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 8563005514212284458
+    second: hollowpurplenew1.meta_0
+  - first:
+      213: 5446603612604554593
+    second: hollowpurplenew1.meta_1
+  - first:
+      213: 5601514841621187001
+    second: hollowpurplenew1.meta_2
+  - first:
+      213: -3483555564830121222
+    second: hollowpurplenew1.meta_3
+  - first:
+      213: -2675195226761865762
+    second: hollowpurplenew1.meta_4
+  - first:
+      213: 6274676230190714822
+    second: hollowpurplenew1.meta_5
+  - first:
+      213: 1353809026497408419
+    second: hollowpurplenew1.meta_6
+  - first:
+      213: 6283883346934216514
+    second: hollowpurplenew1.meta_7
+  - first:
+      213: -5690606263555317890
+    second: hollowpurplenew1.meta_8
+  - first:
+      213: 3268565646267001336
+    second: hollowpurplenew1.meta_9
+  - first:
+      213: -7180911684424843777
+    second: hollowpurplenew1.meta_10
+  - first:
+      213: 7878163191669761644
+    second: hollowpurplenew1.meta_11
+  - first:
+      213: 3929134536368042235
+    second: hollowpurplenew1.meta_12
+  - first:
+      213: 5665792808697938593
+    second: hollowpurplenew1.meta_13
+  - first:
+      213: -4915099368502559730
+    second: hollowpurplenew1.meta_14
+  - first:
+      213: -3002312264054466498
+    second: hollowpurplenew1.meta_15
+  - first:
+      213: 882579517048516803
+    second: hollowpurplenew1.meta_16
+  - first:
+      213: 2883727278552514420
+    second: hollowpurplenew1.meta_17
+  - first:
+      213: 6596819308523172731
+    second: hollowpurplenew1.meta_18
+  - first:
+      213: -3014749527141936982
+    second: hollowpurplenew1.meta_19
+  - first:
+      213: -7570550389912319499
+    second: hollowpurplenew1.meta_20
+  - first:
+      213: -8543469050856372528
+    second: hollowpurplenew1.meta_21
+  - first:
+      213: 1744362646914726301
+    second: hollowpurplenew1.meta_22
+  - first:
+      213: 8105336607236988623
+    second: hollowpurplenew1.meta_23
+  - first:
+      213: -3561890332578179100
+    second: hollowpurplenew1.meta_24
+  - first:
+      213: 2454181994756173516
+    second: hollowpurplenew1.meta_25
+  - first:
+      213: -3692258645354020354
+    second: hollowpurplenew1.meta_26
+  - first:
+      213: -3405267784101065036
+    second: hollowpurplenew1.meta_27
+  - first:
+      213: -2066592056689278155
+    second: hollowpurplenew1.meta_28
+  - first:
+      213: 3729126470704481467
+    second: hollowpurplenew1.meta_29
+  - first:
+      213: -6063350943413270916
+    second: hollowpurplenew1.meta_30
+  - first:
+      213: 4478840542407598305
+    second: hollowpurplenew1.meta_31
+  - first:
+      213: -7543742565387935257
+    second: hollowpurplenew1.meta_32
+  - first:
+      213: -2922127394433835312
+    second: hollowpurplenew1.meta_33
+  - first:
+      213: 8857235197187878055
+    second: hollowpurplenew1.meta_34
+  - first:
+      213: 8024561794270226571
+    second: hollowpurplenew1.meta_35
+  - first:
+      213: -5447589663592048408
+    second: hollowpurplenew1.meta_36
+  - first:
+      213: -555856701656844101
+    second: hollowpurplenew1.meta_37
+  - first:
+      213: 4177928944656974924
+    second: hollowpurplenew1.meta_38
+  - first:
+      213: 1584054504058066521
+    second: hollowpurplenew1.meta_39
+  - first:
+      213: -5002942014624447062
+    second: hollowpurplenew1.meta_40
+  - first:
+      213: 289649724639845560
+    second: hollowpurplenew1.meta_41
+  - first:
+      213: -164530062181792385
+    second: hollowpurplenew1.meta_42
+  - first:
+      213: 7609706028164906980
+    second: hollowpurplenew1.meta_43
+  - first:
+      213: 3745558565908829317
+    second: hollowpurplenew1.meta_44
+  - first:
+      213: 4636165670262996725
+    second: hollowpurplenew1.meta_45
+  - first:
+      213: 2898035755412972665
+    second: hollowpurplenew1.meta_46
+  - first:
+      213: -5686346199359268952
+    second: hollowpurplenew1.meta_47
+  - first:
+      213: 2797996220872706602
+    second: hollowpurplenew1.meta_48
+  - first:
+      213: -6896866285184244624
+    second: hollowpurplenew1.meta_49
+  - first:
+      213: 1472282604085154930
+    second: hollowpurplenew1.meta_50
+  - first:
+      213: -5449066868133524784
+    second: hollowpurplenew1.meta_51
+  - first:
+      213: 109728078342758738
+    second: hollowpurplenew1.meta_52
+  - first:
+      213: 5317942288789771159
+    second: hollowpurplenew1.meta_53
+  - first:
+      213: 3064478311252130191
+    second: hollowpurplenew1.meta_54
+  - first:
+      213: -4726985619586449076
+    second: hollowpurplenew1.meta_55
+  - first:
+      213: -3920172183928555452
+    second: hollowpurplenew1.meta_56
+  - first:
+      213: -2569832018000804785
+    second: hollowpurplenew1.meta_57
+  - first:
+      213: -6754443835838154659
+    second: hollowpurplenew1.meta_58
+  - first:
+      213: -1709555081894941477
+    second: hollowpurplenew1.meta_59
+  - first:
+      213: 6682430454082421145
+    second: hollowpurplenew1.meta_60
+  - first:
+      213: 1892539977385144105
+    second: hollowpurplenew1.meta_61
+  - first:
+      213: -5461176089695772796
+    second: hollowpurplenew1.meta_62
+  - first:
+      213: 4611257862439022111
+    second: hollowpurplenew1.meta_63
+  - first:
+      213: -5418819585617221837
+    second: hollowpurplenew1.meta_64
+  - first:
+      213: 306252545591762129
+    second: hollowpurplenew1.meta_65
+  - first:
+      213: 5514845439539703061
+    second: hollowpurplenew1.meta_66
+  - first:
+      213: 3984544052473278281
+    second: hollowpurplenew1.meta_67
+  - first:
+      213: -4671503164539533482
+    second: hollowpurplenew1.meta_68
+  - first:
+      213: -2389421155763599468
+    second: hollowpurplenew1.meta_69
+  - first:
+      213: -6317103484627627931
+    second: hollowpurplenew1.meta_70
+  - first:
+      213: 6876484837742321216
+    second: hollowpurplenew1.meta_71
+  - first:
+      213: -3457753627345594607
+    second: hollowpurplenew1.meta_72
+  - first:
+      213: 8600813022772408043
+    second: hollowpurplenew1.meta_73
+  - first:
+      213: 3850128193852406674
+    second: hollowpurplenew1.meta_74
+  - first:
+      213: 8254437065779223789
+    second: hollowpurplenew1.meta_75
+  - first:
+      213: 4343182544038023444
+    second: hollowpurplenew1.meta_76
+  - first:
+      213: 8376796658861655404
+    second: hollowpurplenew1.meta_77
+  - first:
+      213: 2352264013632264221
+    second: hollowpurplenew1.meta_78
+  - first:
+      213: -5987016601418977657
+    second: hollowpurplenew1.meta_79
+  - first:
+      213: -2230955968320100761
+    second: hollowpurplenew1.meta_80
+  - first:
+      213: -6079881405479949545
+    second: hollowpurplenew1.meta_81
+  - first:
+      213: -6443586729519516992
+    second: hollowpurplenew1.meta_82
+  - first:
+      213: -4644054310183849443
+    second: hollowpurplenew1.meta_83
+  - first:
+      213: 222617598436716481
+    second: hollowpurplenew1.meta_84
+  - first:
+      213: 2328341632649262861
+    second: hollowpurplenew1.meta_85
+  - first:
+      213: -1777250280144229514
+    second: hollowpurplenew1.meta_86
+  - first:
+      213: 3876816515338900332
+    second: hollowpurplenew1.meta_87
+  - first:
+      213: -2770716130039159103
+    second: hollowpurplenew1.meta_88
+  - first:
+      213: -9178543624578532919
+    second: hollowpurplenew1.meta_89
+  - first:
+      213: 1516670694049123118
+    second: hollowpurplenew1.meta_90
+  - first:
+      213: 1394679338235386208
+    second: hollowpurplenew1.meta_91
+  - first:
+      213: 3467435754620176976
+    second: hollowpurplenew1.meta_92
+  - first:
+      213: -8093265063691204814
+    second: hollowpurplenew1.meta_93
+  - first:
+      213: 7736308522379544437
+    second: hollowpurplenew1.meta_94
+  - first:
+      213: -3584113668854430088
+    second: hollowpurplenew1.meta_95
+  - first:
+      213: -1243533059700463075
+    second: hollowpurplenew1.meta_96
+  - first:
+      213: -4801202283508850994
+    second: hollowpurplenew1.meta_97
+  - first:
+      213: 8815058314544674025
+    second: hollowpurplenew1.meta_98
+  - first:
+      213: 4975367892442971057
+    second: hollowpurplenew1.meta_99
+  - first:
+      213: -5091892757869517499
+    second: hollowpurplenew1.meta_100
+  - first:
+      213: -6126168679788089630
+    second: hollowpurplenew1.meta_101
+  - first:
+      213: 2007286377297330379
+    second: hollowpurplenew1.meta_102
+  - first:
+      213: -7004332482137772336
+    second: hollowpurplenew1.meta_103
+  - first:
+      213: -8036899729694662223
+    second: hollowpurplenew1.meta_104
+  - first:
+      213: 6493020945070690496
+    second: hollowpurplenew1.meta_105
+  - first:
+      213: -5612485192806450570
+    second: hollowpurplenew1.meta_106
+  - first:
+      213: -1063365741565981513
+    second: hollowpurplenew1.meta_107
+  - first:
+      213: 1057589194037083452
+    second: hollowpurplenew1.meta_108
+  - first:
+      213: -3028160378527821171
+    second: hollowpurplenew1.meta_109
+  - first:
+      213: -4624577081413610197
+    second: hollowpurplenew1.meta_110
+  - first:
+      213: -6346763372100528159
+    second: hollowpurplenew1.meta_111
+  - first:
+      213: 7485064003113540652
+    second: hollowpurplenew1.meta_112
+  - first:
+      213: -2549982931532508244
+    second: hollowpurplenew1.meta_113
+  - first:
+      213: 271608858596113069
+    second: hollowpurplenew1.meta_114
+  - first:
+      213: 9217701741782013617
+    second: hollowpurplenew1.meta_115
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 16
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: hollowpurplenew1.meta_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a28955c7528e5d670800000000000000
+      internalID: 8563005514212284458
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hollowpurplenew1.meta_1
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 0
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 16d57a9d029369b40800000000000000
+      internalID: 5446603612604554593
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hollowpurplenew1.meta_2
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 0
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9b9c8e202149cbd40800000000000000
+      internalID: 5601514841621187001
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hollowpurplenew1.meta_3
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 0
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: af227f2abace7afc0800000000000000
+      internalID: -3483555564830121222
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hollowpurplenew1.meta_4
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 0
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ed5d9047d1ccfdad0800000000000000
+      internalID: -2675195226761865762
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hollowpurplenew1.meta_5
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 0
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6cfca1569c0241750800000000000000
+      internalID: 6274676230190714822
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hollowpurplenew1.meta_6
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 0
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3ad68160322b9c210800000000000000
+      internalID: 1353809026497408419
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hollowpurplenew1.meta_7
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 0
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 247b1005c96d43750800000000000000
+      internalID: 6283883346934216514
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hollowpurplenew1.meta_8
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 0
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e7f1c20e0c7e601b0800000000000000
+      internalID: -5690606263555317890
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hollowpurplenew1.meta_9
+      rect:
+        serializedVersion: 2
+        x: 576
+        y: 0
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8f92ace33274c5d20800000000000000
+      internalID: 3268565646267001336
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 4787c1295e2b64d7683d05de705cdaf4
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries:
+      - key: SpriteEditor.SliceSettings
+        value: '{"sliceOnImport":false,"gridCellCount":{"x":1.0,"y":1.0},"gridSpriteSize":{"x":64.0,"y":64.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.5,"y":0.5},"pivotPixels":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":0,"pivotUnitMode":0,"slicingType":1,"keepEmptyRects":false,"isAlternate":false}'
+    nameFileIdTable:
+      hollowpurplenew1.meta_0: 8563005514212284458
+      hollowpurplenew1.meta_1: 5446603612604554593
+      hollowpurplenew1.meta_2: 5601514841621187001
+      hollowpurplenew1.meta_3: -3483555564830121222
+      hollowpurplenew1.meta_4: -2675195226761865762
+      hollowpurplenew1.meta_5: 6274676230190714822
+      hollowpurplenew1.meta_6: 1353809026497408419
+      hollowpurplenew1.meta_7: 6283883346934216514
+      hollowpurplenew1.meta_8: -5690606263555317890
+      hollowpurplenew1.meta_9: 3268565646267001336
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

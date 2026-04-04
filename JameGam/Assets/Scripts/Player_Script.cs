@@ -1,24 +1,45 @@
 using UnityEngine;
 using UnityEngine.Rendering;
+using UnityEngine.UI;
 
 public class Player_Script : MonoBehaviour
 {
-    public Rigidbody2D rb;
-    public BoxCollider2D attackHitbox;
-    public float speed = 5f;
-    public Animator animator;
-    public bool isAttacking = false;
-    public SpriteRenderer spriteRenderer;
+    //PRIVATE VARIABLES
+    Rigidbody2D rb;
+    BoxCollider2D attackHitbox;
+    Animator animator;
+    SpriteRenderer spriteRenderer;
+    Transform upAttackPoint;
+    Transform downAttackPoint;
+    Transform leftAttackPoint;
+    Transform rightAttackPoint;
 
+
+    //Public and serialized variables
+    public float speed = 5f;
+    public float projectileSpeed = 10f;
+    public bool isAttacking = false;
+    public Rigidbody2D HollowProjectile;
     public float specialAttackBar = 100f;
     public GameObject hollowCutSceneScreen;
+    public Slider specialAttackSlider;
+    
+    public Animator CutSceneAnimator;
+
+    public bool isLaunchingSpecialMove = false;
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
            animator = GetComponent<Animator>();
-           attackHitbox = GetComponent<BoxCollider2D>();
+           attackHitbox = transform.Find("AttackObject").GetComponent<BoxCollider2D>();
            rb = GetComponent<Rigidbody2D>();
            spriteRenderer = GetComponent<SpriteRenderer>();
+           upAttackPoint = transform.Find("upstart");
+           downAttackPoint = transform.Find("downstart");
+           leftAttackPoint = transform.Find("leftstart");
+           rightAttackPoint = transform.Find("rightstart");
+           specialAttackSlider.value = specialAttackBar;
+
     }
 
     // Update is called once per frame
@@ -26,28 +47,88 @@ public class Player_Script : MonoBehaviour
     {
         HandleMovement();
         HandleAttack();
+
+        if (isLaunchingSpecialMove)
+        {
+            HandleSpecialAttack();
+        }
+    }
+
+    public void HandleSpecialAttack()
+    {
+        bool didSpecialAttack = false;
+        if (Input.GetKeyDown(KeyCode.W))
+        {
+            HollowProjectile.position = upAttackPoint.position;
+            HollowProjectile.linearVelocity = Vector2.up * projectileSpeed;
+                didSpecialAttack = true;
+        }
+        if (Input.GetKeyDown(KeyCode.S))
+        {
+            HollowProjectile.position = downAttackPoint.position;
+            HollowProjectile.linearVelocity = Vector2.down * projectileSpeed;
+                didSpecialAttack = true;
+        }
+        if (Input.GetKeyDown(KeyCode.A))
+        {
+            HollowProjectile.position = leftAttackPoint.position;
+            HollowProjectile.linearVelocity = Vector2.left * projectileSpeed;
+                didSpecialAttack = true;
+        }
+        if (Input.GetKeyDown(KeyCode.D))
+        {
+            // Logic for the special attack
+            HollowProjectile.position = rightAttackPoint.position;
+            HollowProjectile.linearVelocity = Vector2.right * projectileSpeed;
+                didSpecialAttack = true;
+        }
+        if (didSpecialAttack)
+        {
+            isLaunchingSpecialMove = false;
+        }
         
     }
+
     public void launchPlayerSpecial()
     {
+        CutSceneAnimator.SetTrigger("FadeOut");
         hollowCutSceneScreen.SetActive(false);
+        isLaunchingSpecialMove = true;
+        
         spriteRenderer.enabled = true;
-        animator.SetTrigger("special");
+        HollowProjectile.gameObject.SetActive(true);
+        specialAttackSlider.enabled = true;
     }
 
     public void HandleAttack()
     {
+        if(isLaunchingSpecialMove)
+        {
+            return;
+        }
         if (Input.GetKeyDown(KeyCode.Mouse0))
         {
             animator.SetTrigger("Attack");
         }
         if (Input.GetKeyDown(KeyCode.Mouse1) && specialAttackBar >= 30f)
         {
-            hollowCutSceneScreen.SetActive(true);
+            
+            CutSceneAnimator.SetTrigger("FadeIn");
             spriteRenderer.enabled = false;
-            specialAttackBar -= 30f; 
+            specialAttackBar -= 30f;
+            specialAttackSlider.value = specialAttackBar;
+            specialAttackSlider.enabled = false;
         }
         
+    }
+    public void currentCutSceneStart()
+    {
+        hollowCutSceneScreen.SetActive(true);
+    }
+
+    public void currentCutSceneEnd()
+    {
+        hollowCutSceneScreen.SetActive(false);
     }
     public void setAttackTrue()
     {
@@ -62,7 +143,7 @@ public class Player_Script : MonoBehaviour
 
     public void HandleMovement()
     {
-        if(isAttacking)
+        if(isAttacking || isLaunchingSpecialMove)
         {
             rb.linearVelocity = Vector2.zero;
             return;

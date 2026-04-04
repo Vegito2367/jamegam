@@ -1,0 +1,1053 @@
+fileFormatVersion: 2
+guid: 95a7e4932739a4201908d315f4fe7059
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -4761098848390601636
+    second: hollowpurplemoving_0
+  - first:
+      213: 7369958004791097946
+    second: hollowpurplemoving_1
+  - first:
+      213: 1860074342813943923
+    second: hollowpurplemoving_2
+  - first:
+      213: -35286430151194240
+    second: hollowpurplemoving_3
+  - first:
+      213: 6613387002786951881
+    second: hollowpurplemoving_4
+  - first:
+      213: -1438239314676794164
+    second: hollowpurplemoving_5
+  - first:
+      213: -673670538484287420
+    second: hollowpurplemoving_6
+  - first:
+      213: 1502463555149185666
+    second: hollowpurplemoving_7
+  - first:
+      213: -3215614748150796159
+    second: hollowpurplemoving_8
+  - first:
+      213: 8616310382550524651
+    second: hollowpurplemoving_9
+  - first:
+      213: -1951833208803978889
+    second: hollowpurplemoving_10
+  - first:
+      213: 6673124264228083603
+    second: hollowpurplemoving_11
+  - first:
+      213: -3598367283973919486
+    second: hollowpurplemoving_12
+  - first:
+      213: -3250529086206282104
+    second: hollowpurplemoving_13
+  - first:
+      213: -6137360059043858139
+    second: hollowpurplemoving_14
+  - first:
+      213: -4330903692266090578
+    second: hollowpurplemoving_15
+  - first:
+      213: 3268000686511816048
+    second: hollowpurplemoving_16
+  - first:
+      213: 6511421370671125707
+    second: hollowpurplemoving_17
+  - first:
+      213: 4745350852956059437
+    second: hollowpurplemoving_18
+  - first:
+      213: 4813732098581219700
+    second: hollowpurplemoving_19
+  - first:
+      213: 126226570943468658
+    second: hollowpurplemoving_20
+  - first:
+      213: -3461065888752410622
+    second: hollowpurplemoving_21
+  - first:
+      213: -3436403793481529903
+    second: hollowpurplemoving_22
+  - first:
+      213: -1983629611397220811
+    second: hollowpurplemoving_23
+  - first:
+      213: 6696956480061343169
+    second: hollowpurplemoving_24
+  - first:
+      213: -5962698871073839750
+    second: hollowpurplemoving_25
+  - first:
+      213: 7530479918790112933
+    second: hollowpurplemoving_26
+  - first:
+      213: 1226240163816070211
+    second: hollowpurplemoving_27
+  - first:
+      213: 5253864798053706692
+    second: hollowpurplemoving_28
+  - first:
+      213: 1988679003034467079
+    second: hollowpurplemoving_29
+  - first:
+      213: 5115483850902608921
+    second: hollowpurplemoving_30
+  - first:
+      213: -5534283009538027738
+    second: hollowpurplemoving_31
+  - first:
+      213: -1854954202692235370
+    second: hollowpurplemoving_32
+  - first:
+      213: 7264613786048459257
+    second: hollowpurplemoving_33
+  - first:
+      213: 3970365083071990112
+    second: hollowpurplemoving_34
+  - first:
+      213: -8532142685908862657
+    second: hollowpurplemoving_35
+  - first:
+      213: -3741495416361470234
+    second: hollowpurplemoving_36
+  - first:
+      213: 7656705514137620373
+    second: hollowpurplemoving_37
+  - first:
+      213: -7660016332820421566
+    second: hollowpurplemoving_38
+  - first:
+      213: -2708056057523025047
+    second: hollowpurplemoving_39
+  - first:
+      213: 5704544025050102100
+    second: hollowpurplemoving_40
+  - first:
+      213: -4794476265441744195
+    second: hollowpurplemoving_41
+  - first:
+      213: 7687888143880820347
+    second: hollowpurplemoving_42
+  - first:
+      213: -5394612644868142892
+    second: hollowpurplemoving_43
+  - first:
+      213: 2276779016263581813
+    second: hollowpurplemoving_44
+  - first:
+      213: 213530176616572758
+    second: hollowpurplemoving_45
+  - first:
+      213: 8546562474618952479
+    second: hollowpurplemoving_46
+  - first:
+      213: -1218266028392799676
+    second: hollowpurplemoving_47
+  - first:
+      213: 5384805588419069533
+    second: hollowpurplemoving_48
+  - first:
+      213: 1120603389133255089
+    second: hollowpurplemoving_49
+  - first:
+      213: -6642768753780556595
+    second: hollowpurplemoving_50
+  - first:
+      213: -6617816751976365737
+    second: hollowpurplemoving_51
+  - first:
+      213: -8283586573445453029
+    second: hollowpurplemoving_52
+  - first:
+      213: -2001160978556475225
+    second: hollowpurplemoving_53
+  - first:
+      213: 5631914459777012004
+    second: hollowpurplemoving_54
+  - first:
+      213: -4083569792669721063
+    second: hollowpurplemoving_55
+  - first:
+      213: 8859830513038220293
+    second: hollowpurplemoving_56
+  - first:
+      213: 3508923088696550813
+    second: hollowpurplemoving_57
+  - first:
+      213: 3273103864782147463
+    second: hollowpurplemoving_58
+  - first:
+      213: -2189220595238340946
+    second: hollowpurplemoving_59
+  - first:
+      213: 9139100138465452589
+    second: hollowpurplemoving_60
+  - first:
+      213: 7163700136834259633
+    second: hollowpurplemoving_61
+  - first:
+      213: -1673584262522996557
+    second: hollowpurplemoving_62
+  - first:
+      213: -7069602006332311218
+    second: hollowpurplemoving_63
+  - first:
+      213: 2497084445045940102
+    second: hollowpurplemoving_64
+  - first:
+      213: -3939210044675915069
+    second: hollowpurplemoving_65
+  - first:
+      213: 1046316662226470442
+    second: hollowpurplemoving_66
+  - first:
+      213: -546509839039359226
+    second: hollowpurplemoving_67
+  - first:
+      213: 2500076063435040548
+    second: hollowpurplemoving_68
+  - first:
+      213: -1559285338290304320
+    second: hollowpurplemoving_69
+  - first:
+      213: 2924512013923207556
+    second: hollowpurplemoving_70
+  - first:
+      213: -4805210934790488439
+    second: hollowpurplemoving_71
+  - first:
+      213: -7080004452975656833
+    second: hollowpurplemoving_72
+  - first:
+      213: -3208375784818235016
+    second: hollowpurplemoving_73
+  - first:
+      213: 5563062064515420289
+    second: hollowpurplemoving_74
+  - first:
+      213: 225836064771291614
+    second: hollowpurplemoving_75
+  - first:
+      213: 6475821074615532829
+    second: hollowpurplemoving_76
+  - first:
+      213: -6385784660545117035
+    second: hollowpurplemoving_77
+  - first:
+      213: -6940059672454187612
+    second: hollowpurplemoving_78
+  - first:
+      213: -3833122641293238766
+    second: hollowpurplemoving_79
+  - first:
+      213: 5446814320734064668
+    second: hollowpurplemoving_80
+  - first:
+      213: 5907633325290408583
+    second: hollowpurplemoving_81
+  - first:
+      213: -254678569245287687
+    second: hollowpurplemoving_82
+  - first:
+      213: -3132325070113752238
+    second: hollowpurplemoving_83
+  - first:
+      213: 1640519246107595019
+    second: hollowpurplemoving_84
+  - first:
+      213: 8791511369037533375
+    second: hollowpurplemoving_85
+  - first:
+      213: 4113075036412385476
+    second: hollowpurplemoving_86
+  - first:
+      213: 5628309831148988008
+    second: hollowpurplemoving_87
+  - first:
+      213: 8090139237796728567
+    second: hollowpurplemoving_88
+  - first:
+      213: 619830628914061486
+    second: hollowpurplemoving_89
+  - first:
+      213: -7026512144142847357
+    second: hollowpurplemoving_90
+  - first:
+      213: 5261590593825409348
+    second: hollowpurplemoving_91
+  - first:
+      213: 7294636955222469350
+    second: hollowpurplemoving_92
+  - first:
+      213: -7156248457788924489
+    second: hollowpurplemoving_93
+  - first:
+      213: -2748679111171681057
+    second: hollowpurplemoving_94
+  - first:
+      213: -4126072430380631350
+    second: hollowpurplemoving_95
+  - first:
+      213: 7919237171613422999
+    second: hollowpurplemoving_96
+  - first:
+      213: -2866315784836822625
+    second: hollowpurplemoving_97
+  - first:
+      213: 1802869363567694608
+    second: hollowpurplemoving_98
+  - first:
+      213: -9168424580466662774
+    second: hollowpurplemoving_99
+  - first:
+      213: -8802700028586151338
+    second: hollowpurplemoving_100
+  - first:
+      213: -8703138479343321774
+    second: hollowpurplemoving_101
+  - first:
+      213: -5848727502775133627
+    second: hollowpurplemoving_102
+  - first:
+      213: -3975761563794583536
+    second: hollowpurplemoving_103
+  - first:
+      213: 5723693830496725720
+    second: hollowpurplemoving_104
+  - first:
+      213: 1000965597814262613
+    second: hollowpurplemoving_105
+  - first:
+      213: 7828516861206775128
+    second: hollowpurplemoving_106
+  - first:
+      213: 8349075475116186969
+    second: hollowpurplemoving_107
+  - first:
+      213: 3308418977419092886
+    second: hollowpurplemoving_108
+  - first:
+      213: -167100727979734667
+    second: hollowpurplemoving_109
+  - first:
+      213: -5557552004985412943
+    second: hollowpurplemoving_110
+  - first:
+      213: 7409087973741486670
+    second: hollowpurplemoving_111
+  - first:
+      213: 764154929360355811
+    second: hollowpurplemoving_112
+  - first:
+      213: 8673664572032546569
+    second: hollowpurplemoving_113
+  - first:
+      213: 9077514386564694772
+    second: hollowpurplemoving_114
+  - first:
+      213: -8886881587632023748
+    second: hollowpurplemoving_115
+  - first:
+      213: 8223777794606468699
+    second: hollowpurplemoving_116
+  - first:
+      213: -3847484857131007169
+    second: hollowpurplemoving_117
+  - first:
+      213: 1241408173549085736
+    second: hollowpurplemoving_118
+  - first:
+      213: 5972447439906554529
+    second: hollowpurplemoving_119
+  - first:
+      213: 8950128258848582107
+    second: hollowpurplemoving_120
+  - first:
+      213: 3210949230131292491
+    second: hollowpurplemoving_121
+  - first:
+      213: 4266378561979496809
+    second: hollowpurplemoving_122
+  - first:
+      213: -7864186151082327180
+    second: hollowpurplemoving_123
+  - first:
+      213: -7943647156868371720
+    second: hollowpurplemoving_124
+  - first:
+      213: 509022146386142006
+    second: hollowpurplemoving_125
+  - first:
+      213: -8642054381341253454
+    second: hollowpurplemoving_126
+  - first:
+      213: 5410938488585457607
+    second: hollowpurplemoving_127
+  - first:
+      213: 404082637622370276
+    second: hollowpurplemoving_128
+  - first:
+      213: -7230259685045095550
+    second: hollowpurplemoving_129
+  - first:
+      213: 3051329064500451667
+    second: hollowpurplemoving_130
+  - first:
+      213: -5913544294491700532
+    second: hollowpurplemoving_131
+  - first:
+      213: -1231957680373679837
+    second: hollowpurplemoving_132
+  - first:
+      213: -1257164463562258866
+    second: hollowpurplemoving_133
+  - first:
+      213: 5651333077429025645
+    second: hollowpurplemoving_134
+  - first:
+      213: -8803864590844011875
+    second: hollowpurplemoving_135
+  - first:
+      213: -2868982648654843707
+    second: hollowpurplemoving_136
+  - first:
+      213: 2472966296498036174
+    second: hollowpurplemoving_137
+  - first:
+      213: -3305744496390036591
+    second: hollowpurplemoving_138
+  - first:
+      213: 2236698722944693736
+    second: hollowpurplemoving_139
+  - first:
+      213: -6764973744735926388
+    second: hollowpurplemoving_140
+  - first:
+      213: -7005026343725609195
+    second: hollowpurplemoving_141
+  - first:
+      213: 920377597529827990
+    second: hollowpurplemoving_142
+  - first:
+      213: -4132484690458830433
+    second: hollowpurplemoving_143
+  - first:
+      213: -700498873648681999
+    second: hollowpurplemoving_144
+  - first:
+      213: -1435527251705077013
+    second: hollowpurplemoving_145
+  - first:
+      213: 2722786594501459394
+    second: hollowpurplemoving_146
+  - first:
+      213: -3638023146626333427
+    second: hollowpurplemoving_147
+  - first:
+      213: 3031406769736881124
+    second: hollowpurplemoving_148
+  - first:
+      213: -7044221166225282700
+    second: hollowpurplemoving_149
+  - first:
+      213: 8759076772815604312
+    second: hollowpurplemoving_150
+  - first:
+      213: 4638414187406330084
+    second: hollowpurplemoving_151
+  - first:
+      213: -7141190423304023448
+    second: hollowpurplemoving_152
+  - first:
+      213: -9053772533916572299
+    second: hollowpurplemoving_153
+  - first:
+      213: 7377316782762142504
+    second: hollowpurplemoving_154
+  - first:
+      213: 3396165646059901561
+    second: hollowpurplemoving_155
+  - first:
+      213: -8695108814906894068
+    second: hollowpurplemoving_156
+  - first:
+      213: 2901572206546704230
+    second: hollowpurplemoving_157
+  - first:
+      213: 3782508637749618957
+    second: hollowpurplemoving_158
+  - first:
+      213: 4052913313117258287
+    second: hollowpurplemoving_159
+  - first:
+      213: -273230377014799368
+    second: hollowpurplemoving_160
+  - first:
+      213: 6715049548210354158
+    second: hollowpurplemoving_161
+  - first:
+      213: 408406428192011798
+    second: hollowpurplemoving_162
+  - first:
+      213: 7286697967840759047
+    second: hollowpurplemoving_163
+  - first:
+      213: 8187018419796367820
+    second: hollowpurplemoving_164
+  - first:
+      213: 7456024526535985785
+    second: hollowpurplemoving_165
+  - first:
+      213: -2005804389371404599
+    second: hollowpurplemoving_166
+  - first:
+      213: -607170205888748120
+    second: hollowpurplemoving_167
+  - first:
+      213: 3113934328435175354
+    second: hollowpurplemoving_168
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 16
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: hollowpurplemoving_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c542821a2dd2dedb0800000000000000
+      internalID: -4761098848390601636
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hollowpurplemoving_1
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 0
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a5abe15f1c9574660800000000000000
+      internalID: 7369958004791097946
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hollowpurplemoving_2
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 0
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3784e3b72cf40d910800000000000000
+      internalID: 1860074342813943923
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hollowpurplemoving_3
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 0
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0894271cd23a28ff0800000000000000
+      internalID: -35286430151194240
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hollowpurplemoving_4
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 0
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9c23d47907877cb50800000000000000
+      internalID: 6613387002786951881
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hollowpurplemoving_5
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 0
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ccc30b2a6f85a0ce0800000000000000
+      internalID: -1438239314676794164
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hollowpurplemoving_6
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 0
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4487ff9e634a6a6f0800000000000000
+      internalID: -673670538484287420
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hollowpurplemoving_7
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 0
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 28243ac94a2d9d410800000000000000
+      internalID: 1502463555149185666
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hollowpurplemoving_8
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 0
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 180f6f17c67df53d0800000000000000
+      internalID: -3215614748150796159
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hollowpurplemoving_9
+      rect:
+        serializedVersion: 2
+        x: 576
+        y: 0
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: be22f6a44a8439770800000000000000
+      internalID: 8616310382550524651
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hollowpurplemoving_10
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 0
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7719d60b902b9e4e0800000000000000
+      internalID: -1951833208803978889
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hollowpurplemoving_11
+      rect:
+        serializedVersion: 2
+        x: 704
+        y: 0
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 397da5f9923bb9c50800000000000000
+      internalID: 6673124264228083603
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hollowpurplemoving_12
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 0
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 20de85b2508001ec0800000000000000
+      internalID: -3598367283973919486
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hollowpurplemoving_13
+      rect:
+        serializedVersion: 2
+        x: 832
+        y: 0
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8867994a40dc3e2d0800000000000000
+      internalID: -3250529086206282104
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hollowpurplemoving_14
+      rect:
+        serializedVersion: 2
+        x: 896
+        y: 0
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 529350e1b87b3daa0800000000000000
+      internalID: -6137360059043858139
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hollowpurplemoving_15
+      rect:
+        serializedVersion: 2
+        x: 960
+        y: 0
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eaf4d0ab90a85e3c0800000000000000
+      internalID: -4330903692266090578
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hollowpurplemoving_16
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 0
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 07df44d4f454a5d20800000000000000
+      internalID: 3268000686511816048
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hollowpurplemoving_17
+      rect:
+        serializedVersion: 2
+        x: 1088
+        y: 0
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bc45db5dc373d5a50800000000000000
+      internalID: 6511421370671125707
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 5345178f982f54e9893310394f33d83b
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries:
+      - key: SpriteEditor.SliceSettings
+        value: '{"sliceOnImport":false,"gridCellCount":{"x":1.0,"y":1.0},"gridSpriteSize":{"x":64.0,"y":64.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.5,"y":0.5},"pivotPixels":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":0,"pivotUnitMode":0,"slicingType":1,"keepEmptyRects":false,"isAlternate":false}'
+    nameFileIdTable:
+      hollowpurplemoving_0: -4761098848390601636
+      hollowpurplemoving_1: 7369958004791097946
+      hollowpurplemoving_10: -1951833208803978889
+      hollowpurplemoving_11: 6673124264228083603
+      hollowpurplemoving_12: -3598367283973919486
+      hollowpurplemoving_13: -3250529086206282104
+      hollowpurplemoving_14: -6137360059043858139
+      hollowpurplemoving_15: -4330903692266090578
+      hollowpurplemoving_16: 3268000686511816048
+      hollowpurplemoving_17: 6511421370671125707
+      hollowpurplemoving_2: 1860074342813943923
+      hollowpurplemoving_3: -35286430151194240
+      hollowpurplemoving_4: 6613387002786951881
+      hollowpurplemoving_5: -1438239314676794164
+      hollowpurplemoving_6: -673670538484287420
+      hollowpurplemoving_7: 1502463555149185666
+      hollowpurplemoving_8: -3215614748150796159
+      hollowpurplemoving_9: 8616310382550524651
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
