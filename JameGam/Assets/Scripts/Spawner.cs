@@ -1,6 +1,7 @@
 using UnityEngine;
 using System.Collections;
 using System.Collections.Generic;
+using UnityEngine.SceneManagement;
 
 public class Spawner : MonoBehaviour
 {
@@ -19,6 +20,7 @@ public class Spawner : MonoBehaviour
     public GameObject wave1UI;
     public GameObject wave2UI;
     public GameObject wave3UI;
+    public GameObject winScreenUI;
     public float waveUIDisplayTime = 1f;
 
     [Header("Wave 1 Counts")]
@@ -55,7 +57,8 @@ public class Spawner : MonoBehaviour
 
         yield return StartCoroutine(ShowWaveUI(wave3UI));
         yield return StartCoroutine(SpawnWave(wave3EasyCount, wave3MediumCount, wave3HardCount));
-        yield return StartCoroutine(HandleWaveTransition());
+        yield return StartCoroutine(HandleFinalWaveCompletion());
+        ShowWinScreen();
     }
 
     IEnumerator ShowWaveUI(GameObject waveUI)
@@ -103,6 +106,12 @@ public class Spawner : MonoBehaviour
         yield return new WaitForSeconds(timeBetweenWaves);
     }
 
+    IEnumerator HandleFinalWaveCompletion()
+    {
+        yield return new WaitUntil(AllSpawnedEnemiesAreDefeated);
+        yield return new WaitForSeconds(timeBetweenWaves);
+    }
+
     void SpawnEnemy(GameObject enemyPrefab)
     {
         if (enemyPrefab == null)
@@ -147,5 +156,30 @@ public class Spawner : MonoBehaviour
         {
             wave3UI.SetActive(false);
         }
+
+        if (winScreenUI != null)
+        {
+            winScreenUI.SetActive(false);
+        }
+    }
+
+    void ShowWinScreen()
+    {
+        SetAllWaveUIInactive();
+
+        if (winScreenUI != null)
+        {
+            winScreenUI.SetActive(true);
+        }
+    }
+
+    public void ReplayScene()
+    {
+        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
+    }
+
+    public void QuitApplication()
+    {
+        Application.Quit();
     }
 }

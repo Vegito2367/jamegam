@@ -38,10 +38,13 @@ public class Player_Script : MonoBehaviour
     public float health = 100f;
 
     public bool isCutSceneActive = false;
+    public GameObject specialAttackText;
+    public GameObject loseScreenUI;
 
     inventory inventoryScript;
     float prevSpeed;
     Vector2 movementInput;
+    bool isDead = false;
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
@@ -58,6 +61,11 @@ public class Player_Script : MonoBehaviour
         healthSlider.value = health;
         inventoryScript = GetComponent<inventory>();
         prevSpeed = speed;
+
+        if (loseScreenUI != null)
+        {
+            loseScreenUI.SetActive(false);
+        }
 
     }
 
@@ -148,9 +156,15 @@ public class Player_Script : MonoBehaviour
             animator.SetTrigger("Attack");
             
         }
-        if (Input.GetKeyDown(KeyCode.Mouse1) && specialAttackBar >= 30f)
+        if (Input.GetKeyDown(KeyCode.Mouse1))
 
         {
+            if (specialAttackBar < 30f)
+            {
+                specialAttackText.SetActive(true);
+                Invoke("hideSpecialAttackText", 1f);
+                return;
+            }
             if (!beginFadeIn("hollow"))
             {
                 return;
@@ -160,6 +174,10 @@ public class Player_Script : MonoBehaviour
             specialAttackSlider.enabled = false;
         }
 
+    }
+    public void hideSpecialAttackText()
+    {
+        specialAttackText.SetActive(false);
     }
 
     public void updateSpecialBar(float amount)
@@ -171,14 +189,45 @@ public class Player_Script : MonoBehaviour
 
     public void TakeDamage(float damage)
     {
+        if (isDead)
+        {
+            return;
+        }
+
+        spriteRenderer.color = Color.red;
+        Invoke("ResetColor", 0.1f);
         health -= damage;
+        health = Mathf.Max(health, 0f);
         healthSlider.value = health;
 
         if (health <= 0f)
         {
-            Debug.Log("Player has died.");
-            gameObject.SetActive(false);
+            Die();
         }
+    }
+
+    void Die()
+    {
+        isDead = true;
+        movementInput = Vector2.zero;
+        rb.linearVelocity = Vector2.zero;
+        speed = 0f;
+        isAttacking = false;
+        isLaunchingSpecialMove = false;
+        attackHitbox.enabled = false;
+        animator.SetBool("isMoving", false);
+
+        if (loseScreenUI != null)
+        {
+            loseScreenUI.SetActive(true);
+        }
+
+        Debug.Log("Player has died.");
+        enabled = false;
+    }
+    public void ResetColor()
+    {
+        spriteRenderer.color = Color.white;
     }
 
 
@@ -242,7 +291,7 @@ public class Player_Script : MonoBehaviour
         
         currentAnimation = "Idle";
         Debug.Log("Cutscene ended, launching special move");
-        light2D.intensity = 0f;
+        light2D.intensity = 0.2f;
         isCutSceneActive = false;
         
 

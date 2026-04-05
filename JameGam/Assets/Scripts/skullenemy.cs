@@ -13,6 +13,10 @@ public class skullenemy : MonoBehaviour
     public float attackDamage = 10f;
     public float attackCooldown = 2f;
     public float attackRange = 1f;
+    public float chaseAggression = 1.35f;
+    public float preferredDistanceFromPlayer = 0.6f;
+    public float separationRadius = 1.2f;
+    public float separationStrength = 1.0f;
     private float lastAttackTime = -Mathf.Infinity;
     public float distance;
     bool hasStartedCutScene = false;
@@ -84,6 +88,12 @@ public class skullenemy : MonoBehaviour
     // Update is called once per frame
     void FixedUpdate()
     {
+        if (playerScript == null)
+        {
+            rb.linearVelocity = Vector2.zero;
+            return;
+        }
+
         distance = Vector2.Distance(transform.position, playerScript.transform.position);
         if (!hasStartedCutScene && distance <= threshold)
         {
@@ -99,7 +109,18 @@ public class skullenemy : MonoBehaviour
             rb.linearVelocity = Vector2.zero; 
             return;
         }
-        rb.linearVelocity = (playerScript.transform.position - transform.position).normalized * speed;
+
+        if (distance > preferredDistanceFromPlayer)
+        {
+            Vector2 toPlayer = (playerScript.transform.position - transform.position).normalized;
+            Vector2 separation = GetSeparationDirection();
+            Vector2 moveDirection = (toPlayer * chaseAggression + separation * separationStrength).normalized;
+            rb.linearVelocity = moveDirection * speed;
+        }
+        else
+        {
+            rb.linearVelocity = Vector2.zero;
+        }
 
         if(distance <= attackRange && Time.time >= lastAttackTime + attackCooldown)
         {
@@ -108,5 +129,29 @@ public class skullenemy : MonoBehaviour
             playerScript.TakeDamage(attackDamage);
             lastAttackTime = Time.time;
         }
+    }
+
+    Vector2 GetSeparationDirection()
+    {
+        Collider2D[] nearbyColliders = Physics2D.OverlapCircleAll(transform.position, separationRadius);
+        Vector2 separation = Vector2.zero;
+
+        foreach (Collider2D nearby in nearbyColliders)
+        {
+            skullenemy otherSkullEnemy = nearby.GetComponentInParent<skullenemy>();
+            if (otherSkullEnemy == null || otherSkullEnemy == this)
+            {
+                continue;
+            }
+
+            Vector2 offset = (Vector2)(transform.position - otherSkullEnemy.transform.position);
+            float offsetDistance = offset.magnitude;
+            if (offsetDistance > 0f)
+            {
+                separation += offset.normalized / offsetDistance;
+            }
+        }
+
+        return separation;
     }
 }

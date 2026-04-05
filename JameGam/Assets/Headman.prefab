@@ -182,7 +182,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c9134cd090aa844218e621d5db06d960, type: 3}
   m_Name: 
   m_EditorClassIdentifier: '::'
-  speed: 1.5
+  speed: 3
   health: 100
   threshold: 5
   healthSlider: {fileID: 735306028554661059}
