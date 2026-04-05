@@ -12,7 +12,7 @@ public class bigscreen : MonoBehaviour
 
     public void afterFadeIn()
     {   
-        playerScript.currentCutSceneStart();
+        playerScript.currentCutSceneStart(playerScript.currentAnimation);
     }
 
     public void afterFadeOut()

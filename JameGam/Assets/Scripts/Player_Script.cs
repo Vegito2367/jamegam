@@ -2,6 +2,7 @@ using UnityEngine;
 using UnityEngine.Rendering;
 using UnityEngine.Rendering.Universal;
 using UnityEngine.UI;
+using System.Collections.Generic;
 
 public class Player_Script : MonoBehaviour
 {
@@ -23,12 +24,20 @@ public class Player_Script : MonoBehaviour
     public Rigidbody2D HollowProjectile;
     public float specialAttackBar = 100f;
     public GameObject hollowCutSceneScreen;
+    public GameObject headmanCutSceneScreen;
     public Slider specialAttackSlider;
 
-    public Animator CutSceneAnimator;
+    public Animator BlackScreenAnimator;
 
     public bool isLaunchingSpecialMove = false;
     public Light2D light2D;
+    public string currentAnimation = "Idle";
+    public float attackDamage = 10f;
+    public float health = 100f;
+
+    HashSet<headman> enemiesHitThisSwing = new HashSet<headman>();
+
+    headman headman;
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
@@ -41,6 +50,7 @@ public class Player_Script : MonoBehaviour
         leftAttackPoint = transform.Find("leftstart");
         rightAttackPoint = transform.Find("rightstart");
         specialAttackSlider.value = specialAttackBar;
+        attackHitbox.enabled = false;
 
     }
 
@@ -95,7 +105,7 @@ public class Player_Script : MonoBehaviour
     public void doFadeOut()
     {
 
-        CutSceneAnimator.SetTrigger("FadeOut");
+        BlackScreenAnimator.SetTrigger("FadeOut");
     }
     public void launchPlayerSpecial()
     {
@@ -115,11 +125,12 @@ public class Player_Script : MonoBehaviour
         if (Input.GetKeyDown(KeyCode.Mouse0))
         {
             animator.SetTrigger("Attack");
+            
         }
         if (Input.GetKeyDown(KeyCode.Mouse1) && specialAttackBar >= 30f)
-        {
 
-            CutSceneAnimator.SetTrigger("FadeIn");
+        {
+            beginFadeIn("hollow");
             spriteRenderer.enabled = false;
             specialAttackBar -= 30f;
             specialAttackSlider.value = specialAttackBar;
@@ -127,23 +138,59 @@ public class Player_Script : MonoBehaviour
         }
 
     }
-    public void currentCutSceneStart()
+
+
+
+
+    public void beginFadeIn(string cutSceneName="")
+    {
+        BlackScreenAnimator.SetTrigger("FadeIn");
+        currentAnimation = cutSceneName;
+    }
+    public void currentCutSceneStart(string cutSceneName = "")
     {
         light2D.intensity = 1f;
-        hollowCutSceneScreen.SetActive(true);
+        switch (cutSceneName)
+        {
+            case "hollow":
+                headmanCutSceneScreen.SetActive(false);
+                hollowCutSceneScreen.SetActive(true);
+                currentAnimation = "hollow";
+                break;
+            case "headman":
+                hollowCutSceneScreen.SetActive(false);
+                headmanCutSceneScreen.SetActive(true);
+                currentAnimation = "headman";
+                break;
+            default:
+                break;
+        }
     }
 
-    public void currentCutSceneEnd()
+    public void currentCutSceneEnd(string cutSceneName = "")
     {
         doFadeOut();
-        hollowCutSceneScreen.SetActive(false);
+        switch (cutSceneName)
+        {
+            case "hollow":
+                hollowCutSceneScreen.SetActive(false);
+                launchPlayerSpecial();
+                break;
+            case "headman":
+                headmanCutSceneScreen.SetActive(false);
+                break;
+            default:
+                break;
+        }
+        currentAnimation = "Idle";
         Debug.Log("Cutscene ended, launching special move");
         light2D.intensity = 0f;
-        launchPlayerSpecial();
+        
 
     }
     public void setAttackTrue()
     {
+        enemiesHitThisSwing.Clear();
         attackHitbox.enabled = true;
         isAttacking = true;
     }
@@ -152,6 +199,7 @@ public class Player_Script : MonoBehaviour
         attackHitbox.enabled = false;
         isAttacking = false;
     }
+
 
     public void HandleMovement()
     {

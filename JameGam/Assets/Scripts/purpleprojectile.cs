@@ -3,7 +3,7 @@ using UnityEngine;
 
 public class purpleprojectile : MonoBehaviour
 {
-    public float damage = 10f;
+    public float damage = 100f;
     public float lifetime = 5f;
     public Transform resetPoint;
     public bool released = false;
@@ -13,7 +13,18 @@ public class purpleprojectile : MonoBehaviour
         
     }
 
-    
+    public void OnTriggerEnter2D(Collider2D collision)
+    {
+        if (collision.CompareTag("enemy"))
+        {
+            headman enemy = collision.GetComponent<headman>();
+            if (enemy != null)
+            {
+                enemy.TakeDamage(damage);
+                released = true;
+            }
+        }
+    }
 
     // Update is called once per frame
     void Update()
