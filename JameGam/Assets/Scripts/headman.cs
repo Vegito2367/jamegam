@@ -1,4 +1,5 @@
 using UnityEngine;
+using UnityEngine.UI;
 
 public class headman : MonoBehaviour
 {
@@ -10,29 +11,45 @@ public class headman : MonoBehaviour
     public float health = 20f;
     public float threshold = 2f;
 
+    float currentHealth;
+    SpriteRenderer spriteRenderer;
     bool hasStartedCutScene = false;
 
-    public void startCutScene()
+    public Slider healthSlider;
+
+    public bool startCutScene()
     {
-        playerScript.beginFadeIn("headman");
+        return playerScript.beginFadeIn("headman");
     }
 
 
 
     public void TakeDamage(float damage)
     {
-        health -= damage;
+        currentHealth -= damage;
+        healthSlider.value = currentHealth/health;
 
-        if (health <= 0f)
+        if (currentHealth <= 0f)
         {
             Destroy(gameObject);
         }
+        spriteRenderer.color = Color.red;
+        Invoke("ResetColor", 0.1f);
+    }
+
+    void ResetColor()
+    {
+        spriteRenderer.color = Color.white;
     }
 
     void Start()
     {
         playerScript = FindAnyObjectByType<Player_Script>();
         rb = GetComponent<Rigidbody2D>();
+        spriteRenderer = GetComponent<SpriteRenderer>();
+        currentHealth = health;
+        healthSlider.value = currentHealth/health;
+        
     }
 
     // Update is called once per frame
@@ -40,16 +57,26 @@ public class headman : MonoBehaviour
     {
         if (!hasStartedCutScene && Vector2.Distance(transform.position, playerScript.transform.position) <= threshold)
         {
-            startCutScene();
-            hasStartedCutScene = true;
-            rb.linearVelocity = Vector2.zero; // Stop movement when cutscene starts
+            if (startCutScene())
+            {
+                hasStartedCutScene = true;
+                rb.linearVelocity = Vector2.zero;
+            }
         }
-
+       
         if (playerScript.currentAnimation!="Idle")
         {
-            rb.linearVelocity = Vector2.zero; // Stop movement during cutscene
+            rb.linearVelocity = Vector2.zero; 
             return;
         }
         rb.linearVelocity = (playerScript.transform.position - transform.position).normalized * speed;
+    }
+
+    void OnTriggerEnter2D(Collider2D collision)
+    {
+        if (collision.CompareTag("Player"))
+         {
+             playerScript.TakeDamage(10f); 
+         }
     }
 }

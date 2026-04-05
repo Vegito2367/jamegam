@@ -8,21 +8,27 @@ public class purpleprojectile : MonoBehaviour
     public Transform resetPoint;
     public bool released = false;
     // Start is called once before the first execution of Update after the MonoBehaviour is created
-    void Start()
-    {
-        
-    }
 
     public void OnTriggerEnter2D(Collider2D collision)
     {
         if (collision.CompareTag("enemy"))
         {
             headman enemy = collision.GetComponent<headman>();
+            skullenemy skullenemy = collision.GetComponent<skullenemy>();
+            ballenemy ballenemy = collision.GetComponent<ballenemy>();
             if (enemy != null)
             {
                 enemy.TakeDamage(damage);
-                released = true;
             }
+            else if (skullenemy != null)
+            {
+                skullenemy.TakeDamage(damage);
+            }
+            else if (ballenemy != null)
+            {
+                ballenemy.TakeDamage(damage);
+            }
+
         }
     }
 

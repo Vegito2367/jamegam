@@ -25,7 +25,9 @@ public class Player_Script : MonoBehaviour
     public float specialAttackBar = 100f;
     public GameObject hollowCutSceneScreen;
     public GameObject headmanCutSceneScreen;
+    public GameObject skullCutSceneScreen;
     public Slider specialAttackSlider;
+    public Slider healthSlider;
 
     public Animator BlackScreenAnimator;
 
@@ -35,9 +37,11 @@ public class Player_Script : MonoBehaviour
     public float attackDamage = 10f;
     public float health = 100f;
 
-    HashSet<headman> enemiesHitThisSwing = new HashSet<headman>();
+    public bool isCutSceneActive = false;
 
-    headman headman;
+    inventory inventoryScript;
+    float prevSpeed;
+    Vector2 movementInput;
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
@@ -51,6 +55,9 @@ public class Player_Script : MonoBehaviour
         rightAttackPoint = transform.Find("rightstart");
         specialAttackSlider.value = specialAttackBar;
         attackHitbox.enabled = false;
+        healthSlider.value = health;
+        inventoryScript = GetComponent<inventory>();
+        prevSpeed = speed;
 
     }
 
@@ -65,6 +72,20 @@ public class Player_Script : MonoBehaviour
             HandleSpecialAttack();
         }
     }
+
+    void FixedUpdate()
+    {
+        rb.linearVelocity = movementInput * speed;
+    }
+    public void enableMovement()
+    {
+        speed=prevSpeed;
+    }
+    public void disableMovement()
+    {
+        prevSpeed = speed;
+        speed=0f;
+     }
 
     public void HandleSpecialAttack()
     {
@@ -130,26 +151,52 @@ public class Player_Script : MonoBehaviour
         if (Input.GetKeyDown(KeyCode.Mouse1) && specialAttackBar >= 30f)
 
         {
-            beginFadeIn("hollow");
-            spriteRenderer.enabled = false;
-            specialAttackBar -= 30f;
-            specialAttackSlider.value = specialAttackBar;
+            if (!beginFadeIn("hollow"))
+            {
+                return;
+            }
+
+            updateSpecialBar(-30f);
             specialAttackSlider.enabled = false;
         }
 
     }
 
-
-
-
-    public void beginFadeIn(string cutSceneName="")
+    public void updateSpecialBar(float amount)
     {
+        specialAttackBar += amount;
+        specialAttackBar = Mathf.Clamp(specialAttackBar, 0f, 100f);
+        specialAttackSlider.value = specialAttackBar;
+    }
+
+    public void TakeDamage(float damage)
+    {
+        health -= damage;
+        healthSlider.value = health;
+
+        if (health <= 0f)
+        {
+            Debug.Log("Player has died.");
+            gameObject.SetActive(false);
+        }
+    }
+
+
+    public bool beginFadeIn(string cutSceneName="")
+    {
+        if(isCutSceneActive)
+        {
+            return false;
+        }
+        isCutSceneActive = true;
         BlackScreenAnimator.SetTrigger("FadeIn");
         currentAnimation = cutSceneName;
+        return true;
     }
     public void currentCutSceneStart(string cutSceneName = "")
     {
         light2D.intensity = 1f;
+        spriteRenderer.enabled = false;
         switch (cutSceneName)
         {
             case "hollow":
@@ -162,6 +209,12 @@ public class Player_Script : MonoBehaviour
                 headmanCutSceneScreen.SetActive(true);
                 currentAnimation = "headman";
                 break;
+            case "skull":
+                headmanCutSceneScreen.SetActive(false);
+                hollowCutSceneScreen.SetActive(false);
+                skullCutSceneScreen.SetActive(true);
+                currentAnimation = "skull";
+                break;
             default:
                 break;
         }
@@ -170,6 +223,7 @@ public class Player_Script : MonoBehaviour
     public void currentCutSceneEnd(string cutSceneName = "")
     {
         doFadeOut();
+        spriteRenderer.enabled = true;
         switch (cutSceneName)
         {
             case "hollow":
@@ -179,18 +233,22 @@ public class Player_Script : MonoBehaviour
             case "headman":
                 headmanCutSceneScreen.SetActive(false);
                 break;
+            case "skull":
+                skullCutSceneScreen.SetActive(false);
+                break;
             default:
                 break;
         }
+        
         currentAnimation = "Idle";
         Debug.Log("Cutscene ended, launching special move");
         light2D.intensity = 0f;
+        isCutSceneActive = false;
         
 
     }
     public void setAttackTrue()
     {
-        enemiesHitThisSwing.Clear();
         attackHitbox.enabled = true;
         isAttacking = true;
     }
@@ -205,11 +263,14 @@ public class Player_Script : MonoBehaviour
     {
         if (isAttacking || isLaunchingSpecialMove)
         {
-            rb.linearVelocity = Vector2.zero;
+            movementInput = Vector2.zero;
+            animator.SetBool("isMoving", false);
             return;
         }
+
         float moveX = Input.GetAxisRaw("Horizontal");
         float moveY = Input.GetAxisRaw("Vertical");
+        movementInput = new Vector2(moveX, moveY).normalized;
 
         if (moveX != 0 || moveY != 0)
         {
@@ -219,7 +280,15 @@ public class Player_Script : MonoBehaviour
         {
             animator.SetBool("isMoving", false);
         }
+    }
 
-        rb.linearVelocity = new Vector2(moveX, moveY).normalized * speed;
+    void OnTriggerEnter2D(Collider2D collision)
+    {
+        if (collision.CompareTag("orb"))
+        {
+            Debug.Log("Orb picked up");
+            inventoryScript.addOrb();
+            Destroy(collision.gameObject);
+        }
     }
 }

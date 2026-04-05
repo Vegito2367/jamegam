@@ -1,0 +1,2262 @@
+fileFormatVersion: 2
+guid: b0c0366aafcf24bdcb89eec0d0dfcb77
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 7653416027443306679
+    second: jacobladder_0
+  - first:
+      213: -2427575120919695884
+    second: jacobladder_1
+  - first:
+      213: -9065130410355915111
+    second: jacobladder_2
+  - first:
+      213: -7809230457326798046
+    second: jacobladder_3
+  - first:
+      213: -9081026479770540606
+    second: jacobladder_4
+  - first:
+      213: -5364035210727169079
+    second: jacobladder_5
+  - first:
+      213: -3989674866876653180
+    second: jacobladder_6
+  - first:
+      213: 1051923780372742985
+    second: jacobladder_7
+  - first:
+      213: -5945265746283935043
+    second: jacobladder_8
+  - first:
+      213: -5979403003774792568
+    second: jacobladder_9
+  - first:
+      213: 4398870069766569702
+    second: jacobladder_10
+  - first:
+      213: -7652412491520247493
+    second: jacobladder_11
+  - first:
+      213: 7807943613077358360
+    second: jacobladder_12
+  - first:
+      213: 8540488085546886486
+    second: jacobladder_13
+  - first:
+      213: -6441704618610433189
+    second: jacobladder_14
+  - first:
+      213: -7056667644298439345
+    second: jacobladder_15
+  - first:
+      213: -4369972943988181413
+    second: jacobladder_16
+  - first:
+      213: 4191463632556081117
+    second: jacobladder_17
+  - first:
+      213: -5116386657648097791
+    second: jacobladder_18
+  - first:
+      213: 2087970444663729625
+    second: jacobladder_19
+  - first:
+      213: 777528193637850165
+    second: jacobladder_20
+  - first:
+      213: 2530052828367648119
+    second: jacobladder_21
+  - first:
+      213: 912975373285579629
+    second: jacobladder_22
+  - first:
+      213: -5639503629649144775
+    second: jacobladder_23
+  - first:
+      213: 6595830088886352857
+    second: jacobladder_24
+  - first:
+      213: -2902477240153738075
+    second: jacobladder_25
+  - first:
+      213: -6601877862403165718
+    second: jacobladder_26
+  - first:
+      213: 718224736845602833
+    second: jacobladder_27
+  - first:
+      213: 7541321108131212275
+    second: jacobladder_28
+  - first:
+      213: 5507470552592163007
+    second: jacobladder_29
+  - first:
+      213: -4869053504399504714
+    second: jacobladder_30
+  - first:
+      213: -4385974928131750313
+    second: jacobladder_31
+  - first:
+      213: -6976520201031110934
+    second: jacobladder_32
+  - first:
+      213: -2734868427935611534
+    second: jacobladder_33
+  - first:
+      213: 434077294584020203
+    second: jacobladder_34
+  - first:
+      213: -4743727478348579132
+    second: jacobladder_35
+  - first:
+      213: -9117058991590307013
+    second: jacobladder_36
+  - first:
+      213: 6208596341253691719
+    second: jacobladder_37
+  - first:
+      213: 3149405014691818781
+    second: jacobladder_38
+  - first:
+      213: -5503918742104678152
+    second: jacobladder_39
+  - first:
+      213: -4228897959771782069
+    second: jacobladder_40
+  - first:
+      213: 4577444507941804894
+    second: jacobladder_41
+  - first:
+      213: 5553146821548931858
+    second: jacobladder_42
+  - first:
+      213: 7748519947939712323
+    second: jacobladder_43
+  - first:
+      213: -376000193918536031
+    second: jacobladder_44
+  - first:
+      213: 7290829772758434742
+    second: jacobladder_45
+  - first:
+      213: -2113852608702141516
+    second: jacobladder_46
+  - first:
+      213: 207085842455591672
+    second: jacobladder_47
+  - first:
+      213: -3573698845699987044
+    second: jacobladder_48
+  - first:
+      213: -399190074095066031
+    second: jacobladder_49
+  - first:
+      213: 2670925789168055098
+    second: jacobladder_50
+  - first:
+      213: -8578481337735545645
+    second: jacobladder_51
+  - first:
+      213: -7018417107270542421
+    second: jacobladder_52
+  - first:
+      213: -8481611906298330947
+    second: jacobladder_53
+  - first:
+      213: -5181846148711583870
+    second: jacobladder_54
+  - first:
+      213: -6754145716961336089
+    second: jacobladder_55
+  - first:
+      213: -6220992108782234143
+    second: jacobladder_56
+  - first:
+      213: -6632377473489069478
+    second: jacobladder_57
+  - first:
+      213: -5031946825802818748
+    second: jacobladder_58
+  - first:
+      213: 2678902830239019749
+    second: jacobladder_59
+  - first:
+      213: 606130157811518179
+    second: jacobladder_60
+  - first:
+      213: 2886910742782560005
+    second: jacobladder_61
+  - first:
+      213: -6274335453321248586
+    second: jacobladder_62
+  - first:
+      213: -8149513401766155241
+    second: jacobladder_63
+  - first:
+      213: 2071654355935778585
+    second: jacobladder_64
+  - first:
+      213: 5217307704684158806
+    second: jacobladder_65
+  - first:
+      213: -4852115714106945797
+    second: jacobladder_66
+  - first:
+      213: 9163950392236800184
+    second: jacobladder_67
+  - first:
+      213: 1772822410975729837
+    second: jacobladder_68
+  - first:
+      213: -280819048148806169
+    second: jacobladder_69
+  - first:
+      213: -8291916912980240861
+    second: jacobladder_70
+  - first:
+      213: -8699514792315209864
+    second: jacobladder_71
+  - first:
+      213: -6684389424536600455
+    second: jacobladder_72
+  - first:
+      213: 5612453493023999076
+    second: jacobladder_73
+  - first:
+      213: 6113708463835039311
+    second: jacobladder_74
+  - first:
+      213: -6506359951997118329
+    second: jacobladder_75
+  - first:
+      213: -1142200433222383965
+    second: jacobladder_76
+  - first:
+      213: 2040888674618023077
+    second: jacobladder_77
+  - first:
+      213: 6547602699535966544
+    second: jacobladder_78
+  - first:
+      213: 4813472436622012122
+    second: jacobladder_79
+  - first:
+      213: 8289981414978239431
+    second: jacobladder_80
+  - first:
+      213: 3060710224419103221
+    second: jacobladder_81
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: jacobladder_0
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 58
+        width: 100
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7b02a02d355663a60800000000000000
+      internalID: 7653416027443306679
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jacobladder_1
+      rect:
+        serializedVersion: 2
+        x: 140
+        y: 56
+        width: 40
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4fd61041a458f4ed0800000000000000
+      internalID: -2427575120919695884
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jacobladder_2
+      rect:
+        serializedVersion: 2
+        x: 204
+        y: 49
+        width: 40
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9960520cbef223280800000000000000
+      internalID: -9065130410355915111
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jacobladder_3
+      rect:
+        serializedVersion: 2
+        x: 268
+        y: 45
+        width: 40
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 22bffdd264a00a390800000000000000
+      internalID: -7809230457326798046
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jacobladder_4
+      rect:
+        serializedVersion: 2
+        x: 332
+        y: 40
+        width: 40
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2c56c5da786b9f180800000000000000
+      internalID: -9081026479770540606
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jacobladder_5
+      rect:
+        serializedVersion: 2
+        x: 396
+        y: 37
+        width: 40
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9c36bed456e1f85b0800000000000000
+      internalID: -5364035210727169079
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jacobladder_6
+      rect:
+        serializedVersion: 2
+        x: 460
+        y: 33
+        width: 40
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4816386c8d3d1a8c0800000000000000
+      internalID: -3989674866876653180
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jacobladder_7
+      rect:
+        serializedVersion: 2
+        x: 524
+        y: 29
+        width: 40
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 94347ebda1f299e00800000000000000
+      internalID: 1051923780372742985
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jacobladder_8
+      rect:
+        serializedVersion: 2
+        x: 588
+        y: 26
+        width: 40
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dbac2799d4c2e7da0800000000000000
+      internalID: -5945265746283935043
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jacobladder_9
+      rect:
+        serializedVersion: 2
+        x: 652
+        y: 23
+        width: 40
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 88c8917f5a4e40da0800000000000000
+      internalID: -5979403003774792568
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jacobladder_10
+      rect:
+        serializedVersion: 2
+        x: 716
+        y: 20
+        width: 40
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6eeb881b50deb0d30800000000000000
+      internalID: 4398870069766569702
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jacobladder_11
+      rect:
+        serializedVersion: 2
+        x: 780
+        y: 16
+        width: 40
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b397c28126b2dc590800000000000000
+      internalID: -7652412491520247493
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jacobladder_12
+      rect:
+        serializedVersion: 2
+        x: 844
+        y: 13
+        width: 40
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 81781cb09536b5c60800000000000000
+      internalID: 7807943613077358360
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jacobladder_13
+      rect:
+        serializedVersion: 2
+        x: 908
+        y: 10
+        width: 40
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6556a731aa8e58670800000000000000
+      internalID: 8540488085546886486
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jacobladder_14
+      rect:
+        serializedVersion: 2
+        x: 972
+        y: 7
+        width: 40
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b536bbb67c77a96a0800000000000000
+      internalID: -6441704618610433189
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jacobladder_15
+      rect:
+        serializedVersion: 2
+        x: 1036
+        y: 3
+        width: 40
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f4559935a2ea11e90800000000000000
+      internalID: -7056667644298439345
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jacobladder_16
+      rect:
+        serializedVersion: 2
+        x: 1100
+        y: 0
+        width: 40
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b563483b2ccba53c0800000000000000
+      internalID: -4369972943988181413
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jacobladder_17
+      rect:
+        serializedVersion: 2
+        x: 1151
+        y: 45
+        width: 11
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ddf397b67f11b2a30800000000000000
+      internalID: 4191463632556081117
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jacobladder_18
+      rect:
+        serializedVersion: 2
+        x: 1164
+        y: 0
+        width: 40
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 10646515171fef8b0800000000000000
+      internalID: -5116386657648097791
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jacobladder_19
+      rect:
+        serializedVersion: 2
+        x: 1203
+        y: 27
+        width: 14
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9dd22bf8e06f9fc10800000000000000
+      internalID: 2087970444663729625
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jacobladder_20
+      rect:
+        serializedVersion: 2
+        x: 1215
+        y: 50
+        width: 13
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 53c92a8c5c55aca00800000000000000
+      internalID: 777528193637850165
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jacobladder_21
+      rect:
+        serializedVersion: 2
+        x: 1228
+        y: 0
+        width: 40
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 77573d184ad8c1320800000000000000
+      internalID: 2530052828367648119
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jacobladder_22
+      rect:
+        serializedVersion: 2
+        x: 1270
+        y: 53
+        width: 19
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d6bdd5dc34a8bac00800000000000000
+      internalID: 912975373285579629
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jacobladder_23
+      rect:
+        serializedVersion: 2
+        x: 1271
+        y: 40
+        width: 10
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9349c3504557cb1b0800000000000000
+      internalID: -5639503629649144775
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jacobladder_24
+      rect:
+        serializedVersion: 2
+        x: 1279
+        y: 43
+        width: 13
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9db77e60588198b50800000000000000
+      internalID: 6595830088886352857
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jacobladder_25
+      rect:
+        serializedVersion: 2
+        x: 1292
+        y: 0
+        width: 40
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5a4fafbf35458b7d0800000000000000
+      internalID: -2902477240153738075
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jacobladder_26
+      rect:
+        serializedVersion: 2
+        x: 1337
+        y: 53
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ae1b1f8ff0b6164a0800000000000000
+      internalID: -6601877862403165718
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jacobladder_27
+      rect:
+        serializedVersion: 2
+        x: 1343
+        y: 49
+        width: 6
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 110a494c795a7f900800000000000000
+      internalID: 718224736845602833
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jacobladder_28
+      rect:
+        serializedVersion: 2
+        x: 1356
+        y: 0
+        width: 40
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3fbe05b979728a860800000000000000
+      internalID: 7541321108131212275
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jacobladder_29
+      rect:
+        serializedVersion: 2
+        x: 1398
+        y: 41
+        width: 11
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fb02e2aa9477e6c40800000000000000
+      internalID: 5507470552592163007
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jacobladder_30
+      rect:
+        serializedVersion: 2
+        x: 1400
+        y: 50
+        width: 9
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6ba85e592a5ad6cb0800000000000000
+      internalID: -4869053504399504714
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jacobladder_31
+      rect:
+        serializedVersion: 2
+        x: 1407
+        y: 38
+        width: 12
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 75600fe6a03e123c0800000000000000
+      internalID: -4385974928131750313
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jacobladder_32
+      rect:
+        serializedVersion: 2
+        x: 1420
+        y: 0
+        width: 40
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aee243127db6e2f90800000000000000
+      internalID: -6976520201031110934
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jacobladder_33
+      rect:
+        serializedVersion: 2
+        x: 1460
+        y: 45
+        width: 13
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 275877d97abcb0ad0800000000000000
+      internalID: -2734868427935611534
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jacobladder_34
+      rect:
+        serializedVersion: 2
+        x: 1471
+        y: 46
+        width: 12
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bec3eb4eff6260600800000000000000
+      internalID: 434077294584020203
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jacobladder_35
+      rect:
+        serializedVersion: 2
+        x: 1484
+        y: 0
+        width: 40
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4cef5c5edf4ea2eb0800000000000000
+      internalID: -4743727478348579132
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jacobladder_36
+      rect:
+        serializedVersion: 2
+        x: 1527
+        y: 54
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b3b8af1c623b97180800000000000000
+      internalID: -9117058991590307013
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jacobladder_37
+      rect:
+        serializedVersion: 2
+        x: 1151
+        y: 34
+        width: 11
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 74957325a7d592650800000000000000
+      internalID: 6208596341253691719
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jacobladder_38
+      rect:
+        serializedVersion: 2
+        x: 1217
+        y: 33
+        width: 8
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d1d2a82bc2fe4bb20800000000000000
+      internalID: 3149405014691818781
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jacobladder_39
+      rect:
+        serializedVersion: 2
+        x: 1267
+        y: 19
+        width: 14
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8f06c38a0172e93b0800000000000000
+      internalID: -5503918742104678152
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jacobladder_40
+      rect:
+        serializedVersion: 2
+        x: 1336
+        y: 36
+        width: 9
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b44cd6416bfef45c0800000000000000
+      internalID: -4228897959771782069
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jacobladder_41
+      rect:
+        serializedVersion: 2
+        x: 1343
+        y: 33
+        width: 12
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e5b1fe21789568f30800000000000000
+      internalID: 4577444507941804894
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jacobladder_42
+      rect:
+        serializedVersion: 2
+        x: 1410
+        y: 32
+        width: 8
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 21b7304cc9db01d40800000000000000
+      internalID: 5553146821548931858
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jacobladder_43
+      rect:
+        serializedVersion: 2
+        x: 1465
+        y: 23
+        width: 16
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 34d89f7d6d5488b60800000000000000
+      internalID: 7748519947939712323
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jacobladder_44
+      rect:
+        serializedVersion: 2
+        x: 1475
+        y: 12
+        width: 10
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1a6f106d0dd28caf0800000000000000
+      internalID: -376000193918536031
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jacobladder_45
+      rect:
+        serializedVersion: 2
+        x: 1529
+        y: 43
+        width: 7
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6b3cb13cc0b3e2560800000000000000
+      internalID: 7290829772758434742
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jacobladder_46
+      rect:
+        serializedVersion: 2
+        x: 1156
+        y: 22
+        width: 8
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4bba6c680461aa2e0800000000000000
+      internalID: -2113852608702141516
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jacobladder_47
+      rect:
+        serializedVersion: 2
+        x: 1204
+        y: 18
+        width: 13
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8faf39df977bfd200800000000000000
+      internalID: 207085842455591672
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jacobladder_48
+      rect:
+        serializedVersion: 2
+        x: 1215
+        y: 24
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c9924d785dba76ec0800000000000000
+      internalID: -3573698845699987044
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jacobladder_49
+      rect:
+        serializedVersion: 2
+        x: 1217
+        y: 4
+        width: 11
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 154a3bb1ebac57af0800000000000000
+      internalID: -399190074095066031
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jacobladder_50
+      rect:
+        serializedVersion: 2
+        x: 1279
+        y: 1
+        width: 12
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a33bac4aad8011520800000000000000
+      internalID: 2670925789168055098
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jacobladder_51
+      rect:
+        serializedVersion: 2
+        x: 1333
+        y: 8
+        width: 12
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3dc74ff8cac13f880800000000000000
+      internalID: -8578481337735545645
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jacobladder_52
+      rect:
+        serializedVersion: 2
+        x: 1339
+        y: 27
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bab5d9b73d2999e90800000000000000
+      internalID: -7018417107270542421
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jacobladder_53
+      rect:
+        serializedVersion: 2
+        x: 1343
+        y: 15
+        width: 8
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: db04d52a8e24b4a80800000000000000
+      internalID: -8481611906298330947
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jacobladder_54
+      rect:
+        serializedVersion: 2
+        x: 1345
+        y: 10
+        width: 9
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 28fe151e1626618b0800000000000000
+      internalID: -5181846148711583870
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jacobladder_55
+      rect:
+        serializedVersion: 2
+        x: 1397
+        y: 26
+        width: 12
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7e42b4361447442a0800000000000000
+      internalID: -6754145716961336089
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jacobladder_56
+      rect:
+        serializedVersion: 2
+        x: 1400
+        y: 16
+        width: 17
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1e5d68523a89aa9a0800000000000000
+      internalID: -6220992108782234143
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jacobladder_57
+      rect:
+        serializedVersion: 2
+        x: 1414
+        y: 13
+        width: 8
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a5a9164e3df05f3a0800000000000000
+      internalID: -6632377473489069478
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jacobladder_58
+      rect:
+        serializedVersion: 2
+        x: 1459
+        y: 24
+        width: 14
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 44b5e57b50fea2ab0800000000000000
+      internalID: -5031946825802818748
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jacobladder_59
+      rect:
+        serializedVersion: 2
+        x: 1464
+        y: 19
+        width: 9
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5e27f204eef5d2520800000000000000
+      internalID: 2678902830239019749
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jacobladder_60
+      rect:
+        serializedVersion: 2
+        x: 1523
+        y: 22
+        width: 13
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3eac108ca28696800800000000000000
+      internalID: 606130157811518179
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jacobladder_61
+      rect:
+        serializedVersion: 2
+        x: 1155
+        y: 12
+        width: 10
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 50740d9660e501820800000000000000
+      internalID: 2886910742782560005
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jacobladder_62
+      rect:
+        serializedVersion: 2
+        x: 1159
+        y: 0
+        width: 8
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6b0c527e5251de8a0800000000000000
+      internalID: -6274335453321248586
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jacobladder_63
+      rect:
+        serializedVersion: 2
+        x: 1203
+        y: 3
+        width: 14
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 71c61733dbc17ee80800000000000000
+      internalID: -8149513401766155241
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jacobladder_64
+      rect:
+        serializedVersion: 2
+        x: 1223
+        y: 0
+        width: 6
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 91751fe19aeffbc10800000000000000
+      internalID: 2071654355935778585
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jacobladder_65
+      rect:
+        serializedVersion: 2
+        x: 1267
+        y: 0
+        width: 12
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 65f9b9507b9976840800000000000000
+      internalID: 5217307704684158806
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jacobladder_66
+      rect:
+        serializedVersion: 2
+        x: 1272
+        y: 3
+        width: 9
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bfe80933772d9acb0800000000000000
+      internalID: -4852115714106945797
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jacobladder_67
+      rect:
+        serializedVersion: 2
+        x: 1348
+        y: 0
+        width: 7
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8b8739c3454ec2f70800000000000000
+      internalID: 9163950392236800184
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jacobladder_68
+      rect:
+        serializedVersion: 2
+        x: 1398
+        y: 6
+        width: 11
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: da85f0807945a9810800000000000000
+      internalID: 1772822410975729837
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jacobladder_69
+      rect:
+        serializedVersion: 2
+        x: 1416
+        y: 0
+        width: 7
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7e55de440945a1cf0800000000000000
+      internalID: -280819048148806169
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jacobladder_70
+      rect:
+        serializedVersion: 2
+        x: 1459
+        y: 5
+        width: 18
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 32652c600813dec80800000000000000
+      internalID: -8291916912980240861
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jacobladder_71
+      rect:
+        serializedVersion: 2
+        x: 1476
+        y: 1
+        width: 10
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 877bbcd636d154780800000000000000
+      internalID: -8699514792315209864
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jacobladder_72
+      rect:
+        serializedVersion: 2
+        x: 1525
+        y: 2
+        width: 11
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9704e1adb374c33a0800000000000000
+      internalID: -6684389424536600455
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jacobladder_73
+      rect:
+        serializedVersion: 2
+        x: 1203
+        y: 0
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 464881247b073ed40800000000000000
+      internalID: 5612453493023999076
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jacobladder_74
+      rect:
+        serializedVersion: 2
+        x: 1288
+        y: 0
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f46cf2fb47148d450800000000000000
+      internalID: 6113708463835039311
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jacobladder_75
+      rect:
+        serializedVersion: 2
+        x: 1333
+        y: 0
+        width: 8
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 78852688814c4b5a0800000000000000
+      internalID: -6506359951997118329
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jacobladder_76
+      rect:
+        serializedVersion: 2
+        x: 1343
+        y: 2
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3a68b73f1c61620f0800000000000000
+      internalID: -1142200433222383965
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jacobladder_77
+      rect:
+        serializedVersion: 2
+        x: 1393
+        y: 0
+        width: 9
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5ac99bcbf61b25c10800000000000000
+      internalID: 2040888674618023077
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jacobladder_78
+      rect:
+        serializedVersion: 2
+        x: 1399
+        y: 0
+        width: 10
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 051ea3ce6f1cdda50800000000000000
+      internalID: 6547602699535966544
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jacobladder_79
+      rect:
+        serializedVersion: 2
+        x: 1409
+        y: 3
+        width: 10
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ade2df0ada3ecc240800000000000000
+      internalID: 4813472436622012122
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jacobladder_80
+      rect:
+        serializedVersion: 2
+        x: 1462
+        y: 0
+        width: 9
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7cb3e5abc2eeb0370800000000000000
+      internalID: 8289981414978239431
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jacobladder_81
+      rect:
+        serializedVersion: 2
+        x: 1523
+        y: 0
+        width: 9
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5f128e69bb3d97a20800000000000000
+      internalID: 3060710224419103221
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      jacobladder_0: 7653416027443306679
+      jacobladder_1: -2427575120919695884
+      jacobladder_10: 4398870069766569702
+      jacobladder_11: -7652412491520247493
+      jacobladder_12: 7807943613077358360
+      jacobladder_13: 8540488085546886486
+      jacobladder_14: -6441704618610433189
+      jacobladder_15: -7056667644298439345
+      jacobladder_16: -4369972943988181413
+      jacobladder_17: 4191463632556081117
+      jacobladder_18: -5116386657648097791
+      jacobladder_19: 2087970444663729625
+      jacobladder_2: -9065130410355915111
+      jacobladder_20: 777528193637850165
+      jacobladder_21: 2530052828367648119
+      jacobladder_22: 912975373285579629
+      jacobladder_23: -5639503629649144775
+      jacobladder_24: 6595830088886352857
+      jacobladder_25: -2902477240153738075
+      jacobladder_26: -6601877862403165718
+      jacobladder_27: 718224736845602833
+      jacobladder_28: 7541321108131212275
+      jacobladder_29: 5507470552592163007
+      jacobladder_3: -7809230457326798046
+      jacobladder_30: -4869053504399504714
+      jacobladder_31: -4385974928131750313
+      jacobladder_32: -6976520201031110934
+      jacobladder_33: -2734868427935611534
+      jacobladder_34: 434077294584020203
+      jacobladder_35: -4743727478348579132
+      jacobladder_36: -9117058991590307013
+      jacobladder_37: 6208596341253691719
+      jacobladder_38: 3149405014691818781
+      jacobladder_39: -5503918742104678152
+      jacobladder_4: -9081026479770540606
+      jacobladder_40: -4228897959771782069
+      jacobladder_41: 4577444507941804894
+      jacobladder_42: 5553146821548931858
+      jacobladder_43: 7748519947939712323
+      jacobladder_44: -376000193918536031
+      jacobladder_45: 7290829772758434742
+      jacobladder_46: -2113852608702141516
+      jacobladder_47: 207085842455591672
+      jacobladder_48: -3573698845699987044
+      jacobladder_49: -399190074095066031
+      jacobladder_5: -5364035210727169079
+      jacobladder_50: 2670925789168055098
+      jacobladder_51: -8578481337735545645
+      jacobladder_52: -7018417107270542421
+      jacobladder_53: -8481611906298330947
+      jacobladder_54: -5181846148711583870
+      jacobladder_55: -6754145716961336089
+      jacobladder_56: -6220992108782234143
+      jacobladder_57: -6632377473489069478
+      jacobladder_58: -5031946825802818748
+      jacobladder_59: 2678902830239019749
+      jacobladder_6: -3989674866876653180
+      jacobladder_60: 606130157811518179
+      jacobladder_61: 2886910742782560005
+      jacobladder_62: -6274335453321248586
+      jacobladder_63: -8149513401766155241
+      jacobladder_64: 2071654355935778585
+      jacobladder_65: 5217307704684158806
+      jacobladder_66: -4852115714106945797
+      jacobladder_67: 9163950392236800184
+      jacobladder_68: 1772822410975729837
+      jacobladder_69: -280819048148806169
+      jacobladder_7: 1051923780372742985
+      jacobladder_70: -8291916912980240861
+      jacobladder_71: -8699514792315209864
+      jacobladder_72: -6684389424536600455
+      jacobladder_73: 5612453493023999076
+      jacobladder_74: 6113708463835039311
+      jacobladder_75: -6506359951997118329
+      jacobladder_76: -1142200433222383965
+      jacobladder_77: 2040888674618023077
+      jacobladder_78: 6547602699535966544
+      jacobladder_79: 4813472436622012122
+      jacobladder_8: -5945265746283935043
+      jacobladder_80: 8289981414978239431
+      jacobladder_81: 3060710224419103221
+      jacobladder_9: -5979403003774792568
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

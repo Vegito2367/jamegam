@@ -1,0 +1,520 @@
+fileFormatVersion: 2
+guid: 1ec3ff2f01ea84b0da75b803a445f806
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -3401005910679557909
+    second: ballmoveYaxis_0
+  - first:
+      213: 3643570590272395809
+    second: ballmoveYaxis_1
+  - first:
+      213: -8250262627280440783
+    second: ballmoveYaxis_2
+  - first:
+      213: -6801369137521169397
+    second: ballmoveYaxis_3
+  - first:
+      213: 5568430215759425854
+    second: ballmoveYaxis_4
+  - first:
+      213: 2432300647188798060
+    second: ballmoveYaxis_5
+  - first:
+      213: 3722962630209437887
+    second: ballmoveYaxis_6
+  - first:
+      213: 5051850289189648021
+    second: ballmoveYaxis_7
+  - first:
+      213: -6689197171810308812
+    second: ballmoveYaxis_8
+  - first:
+      213: 2926888511058758515
+    second: ballmoveYaxis_9
+  - first:
+      213: -3612984502819209905
+    second: ballmoveYaxis_10
+  - first:
+      213: 3045549312192954237
+    second: ballmoveYaxis_11
+  - first:
+      213: -1956509291158920711
+    second: ballmoveYaxis_12
+  - first:
+      213: -6858355885666139456
+    second: ballmoveYaxis_13
+  - first:
+      213: 4842524215640097241
+    second: ballmoveYaxis_14
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 32
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: ballmoveYaxis_0
+      rect:
+        serializedVersion: 2
+        x: 23
+        y: 22
+        width: 20
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: be8e0feb4233dc0d0800000000000000
+      internalID: -3401005910679557909
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ballmoveYaxis_1
+      rect:
+        serializedVersion: 2
+        x: 87
+        y: 22
+        width: 20
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 12a1f3bb520909230800000000000000
+      internalID: 3643570590272395809
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ballmoveYaxis_2
+      rect:
+        serializedVersion: 2
+        x: 151
+        y: 24
+        width: 20
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 132b44d2add218d80800000000000000
+      internalID: -8250262627280440783
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ballmoveYaxis_3
+      rect:
+        serializedVersion: 2
+        x: 215
+        y: 26
+        width: 20
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b0ceebbfdceac91a0800000000000000
+      internalID: -6801369137521169397
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ballmoveYaxis_4
+      rect:
+        serializedVersion: 2
+        x: 278
+        y: 23
+        width: 22
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e3174e647c9074d40800000000000000
+      internalID: 5568430215759425854
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ballmoveYaxis_5
+      rect:
+        serializedVersion: 2
+        x: 342
+        y: 25
+        width: 22
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c6a14ae3d8441c120800000000000000
+      internalID: 2432300647188798060
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ballmoveYaxis_6
+      rect:
+        serializedVersion: 2
+        x: 404
+        y: 25
+        width: 26
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fb000bd79ce9aa330800000000000000
+      internalID: 3722962630209437887
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ballmoveYaxis_7
+      rect:
+        serializedVersion: 2
+        x: 468
+        y: 27
+        width: 26
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5967a997217cb1640800000000000000
+      internalID: 5051850289189648021
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ballmoveYaxis_8
+      rect:
+        serializedVersion: 2
+        x: 532
+        y: 28
+        width: 26
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 43de2b5fc923b23a0800000000000000
+      internalID: -6689197171810308812
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ballmoveYaxis_9
+      rect:
+        serializedVersion: 2
+        x: 596
+        y: 30
+        width: 26
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 37b44dee7956e9820800000000000000
+      internalID: 2926888511058758515
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ballmoveYaxis_10
+      rect:
+        serializedVersion: 2
+        x: 660
+        y: 27
+        width: 26
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f4d3872bcb91cddc0800000000000000
+      internalID: -3612984502819209905
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ballmoveYaxis_11
+      rect:
+        serializedVersion: 2
+        x: 726
+        y: 30
+        width: 22
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d7f3233a6f6f34a20800000000000000
+      internalID: 3045549312192954237
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ballmoveYaxis_12
+      rect:
+        serializedVersion: 2
+        x: 791
+        y: 35
+        width: 20
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9f1a8bc6a2519d4e0800000000000000
+      internalID: -1956509291158920711
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ballmoveYaxis_13
+      rect:
+        serializedVersion: 2
+        x: 855
+        y: 37
+        width: 20
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0c209abb8a932d0a0800000000000000
+      internalID: -6858355885666139456
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ballmoveYaxis_14
+      rect:
+        serializedVersion: 2
+        x: 919
+        y: 39
+        width: 20
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9d184790e1a143340800000000000000
+      internalID: 4842524215640097241
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      ballmoveYaxis_0: -3401005910679557909
+      ballmoveYaxis_1: 3643570590272395809
+      ballmoveYaxis_10: -3612984502819209905
+      ballmoveYaxis_11: 3045549312192954237
+      ballmoveYaxis_12: -1956509291158920711
+      ballmoveYaxis_13: -6858355885666139456
+      ballmoveYaxis_14: 4842524215640097241
+      ballmoveYaxis_2: -8250262627280440783
+      ballmoveYaxis_3: -6801369137521169397
+      ballmoveYaxis_4: 5568430215759425854
+      ballmoveYaxis_5: 2432300647188798060
+      ballmoveYaxis_6: 3722962630209437887
+      ballmoveYaxis_7: 5051850289189648021
+      ballmoveYaxis_8: -6689197171810308812
+      ballmoveYaxis_9: 2926888511058758515
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

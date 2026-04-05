@@ -1,0 +1,600 @@
+fileFormatVersion: 2
+guid: 47d093b7eccf446e8bb44378e1f9dcce
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 8049058436918269232
+    second: eyeballclosing_0
+  - first:
+      213: -5775097479699069577
+    second: eyeballclosing_1
+  - first:
+      213: -2919993985421543221
+    second: eyeballclosing_2
+  - first:
+      213: 8247757943815109789
+    second: eyeballclosing_3
+  - first:
+      213: 6217481255726610680
+    second: eyeballclosing_4
+  - first:
+      213: -525333134837116568
+    second: eyeballclosing_5
+  - first:
+      213: -180596284090583872
+    second: eyeballclosing_6
+  - first:
+      213: 5091199388649308237
+    second: eyeballclosing_7
+  - first:
+      213: 4726148645266284604
+    second: eyeballclosing_8
+  - first:
+      213: -8755673496404322398
+    second: eyeballclosing_9
+  - first:
+      213: -6136413103245332246
+    second: eyeballclosing_10
+  - first:
+      213: -5910598956003983860
+    second: eyeballclosing_11
+  - first:
+      213: 6475837806933687905
+    second: eyeballclosing_12
+  - first:
+      213: 8471574150647789704
+    second: eyeballclosing_13
+  - first:
+      213: -6482957074515979442
+    second: eyeballclosing_14
+  - first:
+      213: 8199056832781272203
+    second: eyeballclosing_15
+  - first:
+      213: 3653001594061656210
+    second: eyeballclosing_16
+  - first:
+      213: -305215507311780711
+    second: eyeballclosing_17
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 16
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: eyeballclosing_0
+      rect:
+        serializedVersion: 2
+        x: 29
+        y: 34
+        width: 72
+        height: 49
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 035dfdca00004bf60800000000000000
+      internalID: 8049058436918269232
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: eyeballclosing_1
+      rect:
+        serializedVersion: 2
+        x: 157
+        y: 34
+        width: 71
+        height: 49
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7758843a07bbadfa0800000000000000
+      internalID: -5775097479699069577
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: eyeballclosing_2
+      rect:
+        serializedVersion: 2
+        x: 286
+        y: 34
+        width: 71
+        height: 49
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bc8fba8e0f81a77d0800000000000000
+      internalID: -2919993985421543221
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: eyeballclosing_3
+      rect:
+        serializedVersion: 2
+        x: 413
+        y: 34
+        width: 72
+        height: 49
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d9c7182c62ce57270800000000000000
+      internalID: 8247757943815109789
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: eyeballclosing_4
+      rect:
+        serializedVersion: 2
+        x: 541
+        y: 34
+        width: 72
+        height: 49
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8f8fb3da24ee84650800000000000000
+      internalID: 6217481255726610680
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: eyeballclosing_5
+      rect:
+        serializedVersion: 2
+        x: 669
+        y: 34
+        width: 71
+        height: 49
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8619a451c44a5b8f0800000000000000
+      internalID: -525333134837116568
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: eyeballclosing_6
+      rect:
+        serializedVersion: 2
+        x: 798
+        y: 34
+        width: 70
+        height: 49
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0c4760fe2a46e7df0800000000000000
+      internalID: -180596284090583872
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: eyeballclosing_7
+      rect:
+        serializedVersion: 2
+        x: 925
+        y: 34
+        width: 72
+        height: 49
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d40c021aed297a640800000000000000
+      internalID: 5091199388649308237
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: eyeballclosing_8
+      rect:
+        serializedVersion: 2
+        x: 1053
+        y: 34
+        width: 72
+        height: 49
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c306ac41727a69140800000000000000
+      internalID: 4726148645266284604
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: eyeballclosing_9
+      rect:
+        serializedVersion: 2
+        x: 1181
+        y: 34
+        width: 72
+        height: 49
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2a7948538599d7680800000000000000
+      internalID: -8755673496404322398
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: eyeballclosing_10
+      rect:
+        serializedVersion: 2
+        x: 1309
+        y: 34
+        width: 71
+        height: 49
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ae072027bc417daa0800000000000000
+      internalID: -6136413103245332246
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: eyeballclosing_11
+      rect:
+        serializedVersion: 2
+        x: 1438
+        y: 34
+        width: 71
+        height: 49
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c0e7691b09559fda0800000000000000
+      internalID: -5910598956003983860
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: eyeballclosing_12
+      rect:
+        serializedVersion: 2
+        x: 1565
+        y: 34
+        width: 72
+        height: 49
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 16eb359cc2cced950800000000000000
+      internalID: 6475837806933687905
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: eyeballclosing_13
+      rect:
+        serializedVersion: 2
+        x: 1693
+        y: 34
+        width: 72
+        height: 49
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8883eb14ec3119570800000000000000
+      internalID: 8471574150647789704
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: eyeballclosing_14
+      rect:
+        serializedVersion: 2
+        x: 1821
+        y: 34
+        width: 71
+        height: 49
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e439e5f83e8e706a0800000000000000
+      internalID: -6482957074515979442
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: eyeballclosing_15
+      rect:
+        serializedVersion: 2
+        x: 1950
+        y: 34
+        width: 70
+        height: 49
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b84ca2bbfb6e8c170800000000000000
+      internalID: 8199056832781272203
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: eyeballclosing_16
+      rect:
+        serializedVersion: 2
+        x: 2077
+        y: 34
+        width: 72
+        height: 49
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2901bf9689112b230800000000000000
+      internalID: 3653001594061656210
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: eyeballclosing_17
+      rect:
+        serializedVersion: 2
+        x: 2205
+        y: 34
+        width: 72
+        height: 49
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 99c9dbafc18a3cbf0800000000000000
+      internalID: -305215507311780711
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 2780638d6d47546c9bf9974de5bebe3d
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries:
+      - key: SpriteEditor.SliceSettings
+        value: '{"sliceOnImport":false,"gridCellCount":{"x":1.0,"y":1.0},"gridSpriteSize":{"x":128.0,"y":128.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.5,"y":0.5},"pivotPixels":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":0,"pivotUnitMode":0,"slicingType":0,"keepEmptyRects":false,"isAlternate":false}'
+    nameFileIdTable:
+      eyeballclosing_0: 8049058436918269232
+      eyeballclosing_1: -5775097479699069577
+      eyeballclosing_10: -6136413103245332246
+      eyeballclosing_11: -5910598956003983860
+      eyeballclosing_12: 6475837806933687905
+      eyeballclosing_13: 8471574150647789704
+      eyeballclosing_14: -6482957074515979442
+      eyeballclosing_15: 8199056832781272203
+      eyeballclosing_16: 3653001594061656210
+      eyeballclosing_17: -305215507311780711
+      eyeballclosing_2: -2919993985421543221
+      eyeballclosing_3: 8247757943815109789
+      eyeballclosing_4: 6217481255726610680
+      eyeballclosing_5: -525333134837116568
+      eyeballclosing_6: -180596284090583872
+      eyeballclosing_7: 5091199388649308237
+      eyeballclosing_8: 4726148645266284604
+      eyeballclosing_9: -8755673496404322398
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
